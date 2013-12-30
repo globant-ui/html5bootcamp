@@ -1,34 +1,12 @@
 
 
-HTML5 Boot Camp
+#HTML5 Boot Camp
 
-The future of Web Apps is here! Are you ready for it? ;)
-
-![image alt text](image_0.png)
-
-<table>
-  <tr>
-    <td>Author</td>
-    <td>Globant UI Practice</td>
-  </tr>
-  <tr>
-    <td>Version</td>
-    <td>3.0</td>
-  </tr>
-  <tr>
-    <td>Document creation date</td>
-    <td>2011-10-17</td>
-  </tr>
-  <tr>
-    <td>Last modification date</td>
-    <td>2013-09-11</td>
-  </tr>
-  <tr>
-    <td>Last modification by</td>
-    <td>esteban.abait@globant.com</td>
-  </tr>
-</table>
-
+##The future of Web Apps is here!
+###Are you ready for it?
+<br /><br />
+  
+->![image alt text](image_0.png)<-
 
 Index
 
@@ -50,7 +28,7 @@ Index
 
 9. [Proposed Test Applications](#bookmark=id.8b92757fa279)
 
-10. Environment Setup
+10. [Environment Setup]
 
 11. [Learning Days](#bookmark=id.b50bdb532fdc)
 
@@ -74,20 +52,19 @@ Index
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
-Objective
+###Objective
 
 This course teaches the basics of modern Web UI development which enables the creation of best of breed user experiences, gaming, and mobile applications.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-Who Should Attend
+###Who Should Attend
 
 The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on HTML, CSS, and JavaScript is desired, though.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**
-**Duration
+###Duration
 
 Five weeks total.
 
@@ -95,12 +72,11 @@ Three weeks for guided learning and two weeks for app development.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-Technical Assistance
+###Technical Assistance
 
 You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for boot camp members only, and another one for boot camp members and tutors when boot camp starts.
 
-**
-**Performance Measurement
+###Performance Measurement
 
 1. Code review after each practice and sprint
 
@@ -108,14 +84,14 @@ You can contact other bootcamp participants or any available tutor if you need t
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**
-**Handling Advanced Developers
+
+###Handling Advanced Developers
 
 Developers that move faster than average can go ahead and complete as much exercises as wanted. 
 
 → [index](#bookmark=id.48b72f1065a3)
 
-Materials
+###Materials
 
 1. At least, three different browsers installed on the developer machine. Example, Chrome, Firefox, and the Android browser using Android's emulator.
 
@@ -133,7 +109,7 @@ Materials
 
  
 
-General Guidelines
+###General Guidelines
 
 The boot camp is organized in the following way:
 
@@ -167,27 +143,27 @@ Here you will reach just your boot camp fellows for asking question sharing know
 
 → [index](#bookmark=id.48b72f1065a3)
 
-Proposed Test Applications
+###Proposed Test Applications
 
 The test application will consist in a Last.fm client.
 
-Learning Days
+###Learning Days###
 
 Each day you will grab the fundamentals of the key building blocks for the next generation mobile apps; yeah, web apps! Web apps powered by the latest, and coolest toolkits, and techniques.
 
 On each learning day you will have to:
 
-1. **Reading**:
+1. ####Read:####
 We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
 
-2. **Practice**:
+2. ####Practice:####
 You will implement the previously gathered knowledge in simple coding activities.
 Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention; if you feel you don’t have enough time to complete all tasks, start with these ones when possible.
 
-3. **Commit:
-**You will commit all your code on a daily basis, when you finish your practice.
+3. ####Commit:####
+You will commit all your code on a daily basis, when you finish your practice.
 
-**Topic 0: HTML & CSS Basics**
+####Topic 0: HTML & CSS Basics####
 
 Before starting the boot camp, please revisit your knowledge on the following concepts:
 
@@ -199,11 +175,11 @@ Before starting the boot camp, please revisit your knowledge on the following co
 
 * CSS basic layouts: [http://learnlayout.com/](http://learnlayout.com/)
 
-**Optional**:
+#####Optional:#####
 
 * Accessibility basics: [http://www.w3.org/community/webed/wiki/Accessibility_basics](http://www.w3.org/community/webed/wiki/Accessibility_basics)
 
-**Practice (only HTML + CSS are required to finish the following exercises)**:
+#####Practice (only HTML + CSS are required to finish the following exercises)#####:
 
 1. Create a basic HTML5 index.html file
 
@@ -217,9 +193,9 @@ Before starting the boot camp, please revisit your knowledge on the following co
 
 6. Add a footer with copyright information.
 
-**Topic**** 1: Javascript Intro and jQuery (1 day)**
+####Topic 1: Javascript Intro and jQuery (1 day)####
 
-**Reading:**
+#####Reading:#####
 
 1. Beginners: Eloquent Javascript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
@@ -231,7 +207,7 @@ Before starting the boot camp, please revisit your knowledge on the following co
 
 5. Javascript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
 
-**Extra documentation:**
+#####Extra documentation:#####
 
 * Web Platform Documentation Project: [http://www.webplatform.org/](http://www.webplatform.org/)
 
@@ -239,7 +215,7 @@ Before starting the boot camp, please revisit your knowledge on the following co
 
 * Annotated ECMAScript 5.1: [http://es5.github.com/](http://es5.github.com/)
 
-**Practice:**
+#####Practice:#####
 
 1. Create a basic index.html file. Use correct doctype, and tags. Add jQuery's latest version.
 
@@ -269,23 +245,23 @@ For each tweet show: from_user, text, created_at, profile_image_url.
 
 13. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
-**Key Points:**
+#####Key Points:#####
 
 1, 5, 7, 10, 13
 
-**Mobile Test:**
+#####Mobile Test:#####
 
 Test your code in a mobile device or in Android emulator.
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 2****: ****Grid Systems, and CSS frameworks**** (****1**** ****day****)**
+####Topic 2: Grid Systems, and CSS frameworks (1 day)####
 
-**Reading:**
+#####Reading:#####
 
 Review the documentation of the following CSS frameworks:
 
@@ -305,7 +281,7 @@ Optional reading:
 
 * Building Twitter Bootstrap: [http://alistapart.com/article/building-twitter-bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
 
-**Practice:**
+#####Practice:#####
 
 1. Build a Youtube video mosaic using Bootstrap, Foundation, and Pure based on the following wire-frame: [https://raw.github.com/globant-ui/html5bootcamp/master/assets/youtube_mosaic_home.png](https://raw.github.com/globant-ui/html5bootcamp/master/assets/youtube_mosaic_home.png). 
 
@@ -313,23 +289,23 @@ Optional reading:
 
 3. Validate your HTML/CSS using [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
-**Key Points:**
+#####Key Points:#####
 
 1, 2
 
-**Mobile Test:**
+#####Mobile Test:#####
 
 Test your code in a mobile device or in Android emulator.
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 3****: Design Patterns and OOP in Javascript (3 days)**
+####Topic 3: Design Patterns and OOP in Javascript (3 days)####
 
-**Reading:**
+#####Reading:#####
 
 1. Understand Javascript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
@@ -337,13 +313,13 @@ Commit your practice code.
 
 3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about Javascript design patterns by Addy Osmani
 
-**Extra documentation:**
+#####Extra documentation:#####
 
 * [Javascript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
 
 * [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA)
 
-**Practice:**
+#####Practice:#####
 
 1. Create a Movie object:
 
@@ -355,10 +331,7 @@ Commit your practice code.
     <td>-attributes : hashmap</td>
   </tr>
   <tr>
-    <td>+ play()
-+ stop()
-+ set(attr:string, value)
-+ get(attr:string)</td>
+    <td>+ play() <br />+ stop()<br />+ set(attr:string, value)<br />+ get(attr:string)</td>
   </tr>
 </table>
 
@@ -386,34 +359,34 @@ terminator.play(); //output: Playing Terminator...
 
 10. Apply the mixin to Movie object and play with the console output.
 You should be able to do something like this in the console:
-var ironman2 = new Movie();
-ironman2.set('title', 'Iron Man 2');
-...
-ironman2.share(‘V. Rivas’); //output: Sharing Iron Man 2 with V. Rivas
+	var ironman2 = new Movie();
+	ironman2.set('title', 'Iron Man 2');
+	...
+	ironman2.share(‘V. Rivas’); //output: Sharing Iron Man 2 with V. Rivas
 
 11. Create an Actor class and create some actors from one of your favorite movies.
 
 12. Show how you would add an array of actors to a Movie object.
 
-**Key Points:**
+#####Key Points:#####
 
 3, 4, 8, 10
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 4: FrontEnd Development Best Practices (2 day)**
+####Topic 4: FrontEnd Development Best Practices (2 day)####
 
-Reading on Testing
+#####Reading on Testing#####
 
 * Unit testing with Jasmine: [http://www.adobe.com/devnet/html5/articles/unit-test-javascript-applications-with-jasmine.html](http://www.adobe.com/devnet/html5/articles/unit-test-javascript-applications-with-jasmine.html)
 
 * Getting started with Jasmine: [http://pivotal.github.io/jasmine/](http://pivotal.github.io/jasmine/)
 
-Reading on Performance
+#####Reading on Performance#####
 
 * Learn the basics of FrontEnd performance: 
 
@@ -423,7 +396,7 @@ Reading on Performance
 
     3. [http://javascriptrocks.com/performance/](http://javascriptrocks.com/performance/)
 
-Reading on Task Automation
+#####Reading on Task Automation#####
 
 * Grunt
 
@@ -431,7 +404,7 @@ Reading on Task Automation
 
     * [http://flippinawesome.org/2  013/07/01/building-a-javascript-library-with-grunt-js/](http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/)
 
-Practice:
+#####Practice:#####
 
 1. Create tests for the files in the following repository: [https://github.com/globant-ui/html5bootcamp/tree/master/topic4](https://github.com/globant-ui/html5bootcamp/tree/master/topic4).
 
@@ -445,9 +418,9 @@ Practice:
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 5****: AMD + RequireJS (1 day)**
+####Topic 5: AMD + RequireJS (1 day)####
 
-**Reading:**
+#####Reading:#####
 
 1. Read about [AMD paradigm](http://unscriptable.com/code/Using-AMD-loaders)
 
@@ -463,7 +436,7 @@ Extra documentation:
 
 * [What are the use cases for RequireJS vs. Yepnope vs. LABjs?](http://www.quora.com/What-are-the-use-cases-for-RequireJS-vs-Yepnope-vs-LABjs) (Quora)
 
-**Practice:**
+#####Practice:#####
 
 1. Create a new index.html file as you did it the first day.
 
@@ -477,13 +450,12 @@ Extra documentation:
 
 6. Add a Director to a Movie
 You should be able to do something like this in the console:
-var alien = new Movie();
-...
-var ridleyScott = new Director(‘Ridley Scott’); //sets name in constructor
-ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
-
-alien.set('director', ridleyScott);
-  alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
+    var alien = new Movie();
+	...
+	var ridleyScott = new Director(‘Ridley Scott’); //sets name in constructor
+	ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
+	alien.set('director', ridleyScott);
+	alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
 
 7. Add jQuery as a module (hint: use the [shim](http://requirejs.org/docs/api.html#config-shim) support).
 
@@ -491,19 +463,19 @@ alien.set('director', ridleyScott);
 
 9. Configure a Grunt script that uses grunt-contrib-requirejs to create a bundled version of the project.
 
-**Key Points:**
+#####Key Points:#####
 
 2, 3
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 6****: Template Engines (1 day)**
+####Topic 6: Template Engines (1 day)####
 
-**Reading:**
+#####Reading:#####
 
 1. Know [Handlebars](http://handlebarsjs.com/).
 
@@ -511,11 +483,11 @@ Commit your practice code.
 
 3. Know [{dust}](http://www.google.com/url?q=http%3A%2F%2Fakdubya.github.com%2Fdustjs%2F&sa=D&sntz=1&usg=AFQjCNHxT9p9k0f-C7NBell-5HYVPgpHaw).
 
-**Extra documentation:**
+#####Extra documentation:#####
 
 * Client-side template engine comparison: [http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more)
 
-**Practice:**
+#####Practice:#####
 
 1. Create a new index.html file and link the three template engines. The three files must be linked from a libs directory.
 
@@ -531,25 +503,25 @@ Commit your practice code.
 
 7. Repeat with the next template engine from the reading list.
 
-**Key Points:**
+#####Key Points:#####
 
 4, 6
 
-**Mobile Test:**
+#####Mobile Test:#####
 
 Test your code in a mobile device or in Android emulator.
 
 If it does not look good fix it with minimal changes. 
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 7****: MVC & Mixins (****3**** days)**
+####Topic 7: MVC & Mixins (3 days)####
 
-**Reading:**
+#####Reading:#####
 
 1. Read about the [MVC design pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
@@ -561,7 +533,7 @@ Commit your practice code.
 
 5. Learn the basics of EmberJs: [http://emberjs.com/](http://emberjs.com/)  
 
-**Practice:**
+#####Practice:#####
 
 1. Using Backbone, create a movie listing with your favorite movies. Data shall be persisted in localhost.
 
@@ -571,19 +543,19 @@ Commit your practice code.
 
 4. Implement the same application using Ember and Angular.
 
-**Key Points:**
+#####Key Points:#####
 
 1, 4
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 8****: HTML5 Tags and CSS3**** (1 day)**
+####Topic 8: HTML5 Tags and CSS3(1 day)####
 
-**Reading:**
+#####Reading:#####
 
 1. Read about [new HTML tags](http://diveintohtml5.info/semantics.html).
 
@@ -605,10 +577,10 @@ Commit your practice code.
 
 5. If you feel strong about CSS, then go pro: [http://learn.shayhowe.com/advanced-html-css/](http://learn.shayhowe.com/advanced-html-css/)
 
-Suggested readings:
+#####Suggested readings:#####
 [CSS Specificity: Things You Should Know](http://www.google.com/url?q=http%3A%2F%2Fcoding.smashingmagazine.com%2F2007%2F07%2F27%2Fcss-specificity-things-you-should-know%2F&sa=D&sntz=1&usg=AFQjCNG3MN8l-eWjjx4yhsrtp8Y0TkAVSg)
 
-**Practice:**
+#####Practice:#####
 
 1. Create a basic page using the new HTML5 tags. That page must follow a fixed-desktop-layout.
 
@@ -622,19 +594,19 @@ Suggested readings:
 
     4. Off Canvas
 
-**Key Points:**
+#####Key Points:#####
 
 1, 2
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-**Topic 9****: HTML5 APIs (1 day)**
+####Topic 9: HTML5 APIs (1 day)####
 
-**Reading:**
+#####Reading:#####
 
 1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
 
@@ -652,7 +624,7 @@ Commit your practice code.
 
 3. Use [http://playground.html5rocks.com/](http://playground.html5rocks.com/) to play a little bit with them.
 
-**Practice:**
+#####Practice:#####
 
 1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB. 
 
@@ -668,19 +640,19 @@ Commit your practice code.
 
 7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
 
-**Key Points:**
+#####Key Points:#####
 
 1, 3, 6
 
-**Commit:**
+#####Commit:#####
 
 Commit your practice code.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-Your First Project Starts Now!
+###Your First Project Starts Now!###
 
-It’s time for the real thing.
+####It’s time for the real thing.####
 
 You will work on a project to achieve a fully working multi platform mobile app developed in Javascript and using the latest tags and APIs available in HTML5.
 
@@ -693,16 +665,16 @@ Once estimated, user stories will be divided into sprints of one week.
 You will participate on daily scrum meetings.
 Will you be able to consult documentation? Of course! You will be able to use any resource you know that helps you complete your user stories, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web is plenty of awesome resources waiting for you to grasp them!
 
-**Commits**
+####Commits####
 
 You will commit your code to GitHub on a daily basis.
 
-**Reviews
-**Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
+####Reviews####
+
+Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
 
 → [index](#bookmark=id.48b72f1065a3)
 
-…
 
 Thanks for reading!
 
