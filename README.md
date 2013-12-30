@@ -6,7 +6,7 @@
 ###Are you ready for it?
 <br /><br />
   
-->![image alt text](image_0.png)<-
+![image alt text](image_0.png)
 
 Index
 
