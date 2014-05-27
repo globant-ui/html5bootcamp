@@ -93,7 +93,9 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account. 
 
-5. Install your own LAMP server. Download[ WAMP](http://www.wampserver.com/en/) if you are using Windows, or[ XAMPP](http://www.apachefriends.org/en/xampp.html) in case you prefer Linux.
+5. Install your own NodeJS server. 
+  * Download [NodeJS](http://nodejs.org/)
+  * Install `http-server` globally, by running `npm install -g http-server`
 
 6. Create a new repository in[ GitHub](https://github.com/)  to host the project code.
 
