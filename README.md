@@ -157,7 +157,21 @@ Most important task numbers are listed in the "*Key Points*" section for each da
 3. ####Commit:####
 You will commit all your code on a daily basis, when you finish your practice.
 
-####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
+### Introduction
+
+At high level you could see the keys as:
+
+![technologies logos](assets/html5-css-javascript.png "The platform")
+
+HTML is responsible of content semantics and structure. It was designed as a tag language, if you know XML, you could consider HTML as a subset of XML with a predefined semantic.
+
+CSS, instead, is responsible of handling the look and feel of the content. It is in charge of customizing colors, sizes, content layout (e.x. "The following list of elements must be shown as a menu", "The main title of the page should use this particular font").
+
+Javascript handles the beahaviour of a web application, it's in charge of interacting with the user, and altering the document content that is displayed.
+
+Now that you know which are the three pilars of a web application's UI, it's time to dive into them in more depth.
+
+####[Topic 0: HTML & CSS Basics (5 days)](https://github.com/globant-ui/css-lab)
 
 ####Topic 1: Javascript Intro and jQuery (1 day)####
 
@@ -316,8 +330,6 @@ Extra documentation:
 
 * [Writing Modular Javascript](http://addyosmani.com/blog/writing-modular-javascript/)
 
-* [What are the use cases for RequireJS vs. Yepnope vs. LABjs?](http://www.quora.com/What-are-the-use-cases-for-RequireJS-vs-Yepnope-vs-LABjs) (Quora)
-
 #####Practice:#####
 
 1. Create a new index.html file as you did it the first day.
@@ -343,7 +355,6 @@ You should be able to do something like this in the console:
 
 8. Using jQuery show Director quotes.
 
-9. Configure a Grunt script that uses grunt-contrib-requirejs to create a bundled version of the project.
 
 #####Key Points:#####
 
