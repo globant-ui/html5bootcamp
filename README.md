@@ -96,6 +96,8 @@ Developers that move faster than average can go ahead and complete as much exerc
 5. Install your own NodeJS server. 
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
+  * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
+  * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
 6. Fork this repo https://github.com/intii/startup to use as a base to host the project code.
 
