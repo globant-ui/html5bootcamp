@@ -1,14 +1,10 @@
 
-
 #HTML5 Boot Camp
 
 ##The future of Web Apps is here!
 ###Are you ready for it?
-<br /><br />
   
-![image alt text](image_0.png)
-
-Index
+####Index
 
 1. [Objective](#objective)
 
@@ -32,9 +28,11 @@ Index
 
 11. [Learning Days](#learning-days)
 
-    * [Topic 1: Javascript Intro and jQuery](#topic-1:-javascript-intro-and-jquery-1-day)
+    * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics-5-days)
 
-    * [Topic 2: OOP and Inheritance in Javascript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
+    * [Topic 1: JavaScript Intro and jQuery](#topic-1:-javascript-intro-and-jquery-1-day)
+
+    * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
     * [Topic 3: AMD + RequireJS](#topic-3-amd--requirejs-1-day)
 
@@ -50,13 +48,13 @@ Index
 
 This course teaches the basics of modern Web UI development which enables the creation of best of breed user experiences, gaming, and mobile applications.
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Who Should Attend
 
 The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on HTML, CSS, and JavaScript is desired, though.
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Duration
 
@@ -64,7 +62,7 @@ Five weeks total.
 
 Three weeks for guided learning and two weeks for app development. 
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Technical Assistance
 
@@ -76,14 +74,14 @@ You can contact other bootcamp participants or any available tutor if you need t
 
 2. Checkpoint completion after Learning stage with your assigned tutor
 
-→ [index](#objective)
+→ [index](#index)
 
 
 ###Handling Advanced Developers
 
 Developers that move faster than average can go ahead and complete as much exercises as wanted. 
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Materials
 
@@ -99,7 +97,7 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 6. Create a new repository in[ GitHub](https://github.com/)  to host the project code.
 
-→ [index](#objective)
+→ [index](#index)
 
  
 
@@ -133,9 +131,9 @@ Here you will reach just your boot camp fellows for asking question sharing know
 
 10. All code and documentation must be in English.
 
-11. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/javascript-style-guide) coding guidelines.
+11. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/JavaScript-style-guide) coding guidelines.
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Proposed Test Applications
 
@@ -163,21 +161,21 @@ At high level you could see the keys as:
 
 ![technologies logos](assets/html5-css-javascript.png "The platform")
 
-HTML is responsible of content semantics and structure. It was designed as a tag language, if you know XML, you could consider HTML as a subset of XML with a predefined semantic.
+HTML describes the content semantics and structure of a web page. It was designed as a markup language, if you know XML, you could consider HTML as a subset of XML with a predefined semantic.
 
-CSS, instead, is responsible of handling the look and feel of the content. It is in charge of customizing colors, sizes, content layout (e.x. "The following list of elements must be shown as a menu", "The main title of the page should use this particular font").
+On the other hand, CSS allows to define the look and feel of the content. It's used to set colors on HTML elements, customize sizes, define the layout of the document content, among others. (e.x. "The following list of elements must be shown as a menu", "The main title of the page should use this particular font").
 
-Javascript handles the beahaviour of a web application, it's in charge of interacting with the user, and altering the document content that is displayed.
+JavaScript is a programming language that runs in all Web Browsers. It allows to add dynamism to a web page, by supplying a way to have more control over user interaction, and allowing altering the document content that is displayed.
 
 Now that you know which are the three pilars of a web application's UI, it's time to dive into them in more depth.
 
 ####[Topic 0: HTML & CSS Basics (5 days)](https://github.com/globant-ui/css-lab)
 
-####Topic 1: Javascript Intro and jQuery (1 day)####
+####Topic 1: JavaScript Intro and jQuery (1 day)####
 
 #####Reading:#####
 
-1. Beginners: Eloquent Javascript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
+1. Beginners: Eloquent JavaScript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
 2. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
 
@@ -185,13 +183,13 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 4. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
 
-5. Javascript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+5. JavaScript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
 
 #####Extra documentation:#####
 
 * Web Platform Documentation Project: [http://www.webplatform.org/](http://www.webplatform.org/)
 
-* MDN Javascript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
+* MDN JavaScript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
 
 * Annotated ECMAScript 5.1: [http://es5.github.com/](http://es5.github.com/)
 
@@ -237,21 +235,21 @@ Test your code in a mobile device or in Android emulator.
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
-####Topic 2: Design Patterns and OOP in Javascript (3 days)####
+####Topic 2: Design Patterns and OOP in JavaScript (3 days)####
 
 #####Reading:#####
 
-1. Understand Javascript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+1. Understand JavaScript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
-2. Understand Javascript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+2. Understand JavaScript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
-3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about Javascript design patterns by Addy Osmani
+3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about JavaScript design patterns by Addy Osmani
 
 #####Extra documentation:#####
 
-* [Javascript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
+* [JavaScript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
 
 * [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA)
 
@@ -312,7 +310,7 @@ You should be able to do something like this in the console:
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
 ####Topic 3: AMD + RequireJS (1 day)####
 
@@ -328,7 +326,7 @@ Extra documentation:
 
 * [AMD: The Definitive Source](http://www.sitepen.com/blog/2012/06/25/amd-the-definitive-source/)
 
-* [Writing Modular Javascript](http://addyosmani.com/blog/writing-modular-javascript/)
+* [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
 
 #####Practice:#####
 
@@ -364,7 +362,7 @@ You should be able to do something like this in the console:
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
 ####Topic 4: Template Engines (1 day)####
 
@@ -410,7 +408,7 @@ If it does not look good fix it with minimal changes.
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
 ####Topic 5: MVC & Mixins (3 days)####
 
@@ -418,13 +416,10 @@ Commit your practice code.
 
 1. Read about the [MVC design pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
-2. [MVC Architecture for Javascript Applications](http://michaux.ca/articles/mvc-architecture-for-javascript-applications)
+2. [MVC Architecture for JavaScript Applications](http://michaux.ca/articles/mvc-architecture-for-javascript-applications)
 
 3. Learn the basics of [Backbone.js](http://documentcloud.github.com/backbone/); [https://github.com/addyosmani/backbone-fundamentals](https://github.com/addyosmani/backbone-fundamentals)
 
-4. Learn the basics of AngularJs: [http://angularjs.org/](http://angularjs.org/)
-
-5. Learn the basics of EmberJs: [http://emberjs.com/](http://emberjs.com/)  
 
 #####Practice:#####
 
@@ -434,17 +429,16 @@ Commit your practice code.
 
 3. Allow to add / edit / remove movies from the list.
 
-4. Implement the same application using Ember and Angular.
 
 #####Key Points:#####
 
-1, 4
+1, 2
 
 #####Commit:#####
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
 ####Topic 6: HTML5 APIs (1 day)####
 
@@ -490,13 +484,13 @@ Commit your practice code.
 
 Commit your practice code.
 
-→ [index](#objective)
+→ [index](#index)
 
 ###Your First Project Starts Now!###
 
 ####It’s time for the real thing.####
 
-You will work on a project to achieve a fully working multi platform mobile app developed in Javascript and using the latest tags and APIs available in HTML5.
+You will work on a project to achieve a fully working multi platform mobile app developed in JavaScript and using the latest tags and APIs available in HTML5.
 
 You will apply all the knowledge obtained during the learning weeks.
 
@@ -515,7 +509,7 @@ You will commit your code to GitHub on a daily basis.
 
 Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
 
-→ [index](#objective)
+→ [index](#index)
 
 
 Thanks for reading!
