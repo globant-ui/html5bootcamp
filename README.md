@@ -245,7 +245,7 @@ Commit your practice code.
 
 1. Understand Javascript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
-2. Understand Javascript OO: [http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html](http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html)
+2. Understand Javascript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
 3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about Javascript design patterns by Addy Osmani
 
