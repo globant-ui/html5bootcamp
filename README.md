@@ -97,7 +97,7 @@ Developers that move faster than average can go ahead and complete as much exerc
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
 
-6. Create a new repository in[ GitHub](https://github.com/)  to host the project code.
+6. Fork this repo https://github.com/intii/startup to use as a base to host the project code.
 
 → [index](#index)
 
