@@ -1,54 +1,46 @@
 
-
 #HTML5 Boot Camp
 
 ##The future of Web Apps is here!
 ###Are you ready for it?
-<br /><br />
   
-![image alt text](image_0.png)
+####Index
 
-Index
+1. [Objective](#objective)
 
-1. [Objective](#bookmark=id.897be14cb359)
+2. [Who Should Attend](#who-should-attend)
 
-2. [Who Should Attend](#bookmark=id.21dc7aafc174)
+3. [Duration](#duration)
 
-3. [Duration](#bookmark=id.a73ab2f2ac11)
+4. [Technical Assistance](#technical-assistance)
 
-4. [Technical Assistance](#bookmark=id.dd060dbb7eb5)
+5. [Performance Measurement](#performance-measurement)
 
-5. [Performance Measurement](#bookmark=id.b5cf29d0ffa0)
+6. [Handling advanced Developers](#handling-advanced-developers)
 
-6. [Handling advanced Developers](#bookmark=id.0cc111c885a5)
+7. [Materials](#materials)
 
-7. [Materials](#bookmark=id.f94cb75789dc)
+8. [General Guidelines](#general-guidelines)
 
-8. [General Guidelines](#bookmark=id.997a3aca11cc)
-
-9. [Proposed Test Applications](#bookmark=id.8b92757fa279)
+9. [Proposed Test Applications](#proposed-test-applications)
 
 10. [Environment Setup]
 
-11. [Learning Days](#bookmark=id.b50bdb532fdc)
+11. [Learning Days](#learning-days)
 
-    * [Topic 1: Javascript Intro and jQuery](#bookmark=id.8dc70ccbbe50)
+    * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics-5-days)
 
-    * [Topic 2: jQuery Mobile](#bookmark=id.2a30572bd13a)
+    * [Topic 1: JavaScript Intro and jQuery](#topic-1-javascript-intro-and-jquery-1-day)
 
-    * [Topic 3: OOP and Inheritance in Javascript](#bookmark=id.1351de2332d5)
+    * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
-    * [Topic 4: AMD + RequireJS](#bookmark=id.857777062f13)
+    * [Topic 3: AMD + RequireJS](#topic-3-amd--requirejs-1-day)
 
-    * [Topic 5: Template Engines](#bookmark=id.0f8ff196f7f0)
+    * [Topic 4: Template Engines](#topic-4-template-engines-1-day)
 
-    * [Topic 6: MVC + Backbone](#bookmark=id.1bf98acf8811)
+    * [Topic 5: MVC + Backbone](#topic-5-mvc--mixins-3-days)
 
-    * [Topic 7: HTML5 Tags and CSS3](#bookmark=id.1a41cc68fed7)
-
-    * [Topic 8: HTML5 APIs](#bookmark=id.b350a3595b11)
-
-    * [Topic 9: Modernizr + yepNope](#bookmark=id.b4608850fbe7)
+    * [Topic 6: HTML5 APIs](#topic-6-html5-apis-1-day)
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
@@ -56,13 +48,13 @@ Index
 
 This course teaches the basics of modern Web UI development which enables the creation of best of breed user experiences, gaming, and mobile applications.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Who Should Attend
 
 The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on HTML, CSS, and JavaScript is desired, though.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Duration
 
@@ -70,7 +62,7 @@ Five weeks total.
 
 Three weeks for guided learning and two weeks for app development. 
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Technical Assistance
 
@@ -82,14 +74,14 @@ You can contact other bootcamp participants or any available tutor if you need t
 
 2. Checkpoint completion after Learning stage with your assigned tutor
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 
 ###Handling Advanced Developers
 
 Developers that move faster than average can go ahead and complete as much exercises as wanted. 
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Materials
 
@@ -101,11 +93,15 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account. 
 
-5. Install your own LAMP server. Download[ WAMP](http://www.wampserver.com/en/) if you are using Windows, or[ XAMPP](http://www.apachefriends.org/en/xampp.html) in case you prefer Linux.
+5. Install your own NodeJS server. 
+  * Download [NodeJS](http://nodejs.org/)
+  * Install `http-server` globally, by running `npm install -g http-server`
+  * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
+  * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
-6. Create a new repository in[ GitHub](https://github.com/)  to host the project code.
+6. Fork this repo https://github.com/intii/startup to use as a base to host the project code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
  
 
@@ -139,9 +135,9 @@ Here you will reach just your boot camp fellows for asking question sharing know
 
 10. All code and documentation must be in English.
 
-11. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/javascript-style-guide) coding guidelines.
+11. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/JavaScript-style-guide) coding guidelines.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Proposed Test Applications
 
@@ -163,41 +159,27 @@ Most important task numbers are listed in the "*Key Points*" section for each da
 3. ####Commit:####
 You will commit all your code on a daily basis, when you finish your practice.
 
-####Topic 0: HTML & CSS Basics####
+### Introduction
 
-Before starting the boot camp, please revisit your knowledge on the following concepts:
+At high level you could see the keys as:
 
-* Recommended read: [http://learn.shayhowe.com/html-css/](http://learn.shayhowe.com/html-css/)
+![technologies logos](assets/html5-css-javascript.png "The platform")
 
-* HTML documents: [http://www.w3.org/community/webed/wiki/The_basics_of_HTML](http://www.w3.org/community/webed/wiki/The_basics_of_HTML)
+HTML describes the content semantics and structure of a web page. It was designed as a markup language, if you know XML, you could consider HTML as a subset of XML with a predefined semantic.
 
-* CSS basics: [http://www.w3.org/community/webed/wiki/CSS/Training](http://www.w3.org/community/webed/wiki/CSS/Training)
+On the other hand, CSS allows to define the look and feel of the content. It's used to set colors on HTML elements, customize sizes, define the layout of the document content, among others. (e.x. "The following list of elements must be shown as a menu", "The main title of the page should use this particular font").
 
-* CSS basic layouts: [http://learnlayout.com/](http://learnlayout.com/)
+JavaScript is a programming language that runs in all Web Browsers. It allows to add dynamism to a web page, by supplying a way to have more control over user interaction, and allowing altering the document content that is displayed.
 
-#####Optional:#####
+Now that you know which are the three pilars of a web application's UI, it's time to dive into them in more depth.
 
-* Accessibility basics: [http://www.w3.org/community/webed/wiki/Accessibility_basics](http://www.w3.org/community/webed/wiki/Accessibility_basics)
+####[Topic 0: HTML & CSS Basics (5 days)](https://github.com/globant-ui/css-lab)
 
-#####Practice (only HTML + CSS are required to finish the following exercises)#####:
-
-1. Create a basic HTML5 index.html file
-
-2. Add a header "Argentine Football Association", with a subheader containing your name.
-
-3. Add a link to your email next to the subheader. If the user clicks on it, then an email client must open.
-
-4. Add a navigation bar on the left side of the page with links to Argentine Primera División soccer teams. Is **highly recommended** to include a link to CAI. 
-
-5. On the right side of the page add a table with the number of *Champions of America Cup *each team has won.
-
-6. Add a footer with copyright information.
-
-####Topic 1: Javascript Intro and jQuery (1 day)####
+####Topic 1: JavaScript Intro and jQuery (1 day)####
 
 #####Reading:#####
 
-1. Beginners: Eloquent Javascript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
+1. Beginners: Eloquent JavaScript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
 2. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
 
@@ -205,13 +187,13 @@ Before starting the boot camp, please revisit your knowledge on the following co
 
 4. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
 
-5. Javascript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+5. JavaScript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
 
 #####Extra documentation:#####
 
 * Web Platform Documentation Project: [http://www.webplatform.org/](http://www.webplatform.org/)
 
-* MDN Javascript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
+* MDN JavaScript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
 
 * Annotated ECMAScript 5.1: [http://es5.github.com/](http://es5.github.com/)
 
@@ -257,65 +239,21 @@ Test your code in a mobile device or in Android emulator.
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
-####Topic 2: Grid Systems, and CSS frameworks (1 day)####
-
-#####Reading:#####
-
-Review the documentation of the following CSS frameworks:
-
-* Bootstrap: [http://getbootstrap.com/](http://getbootstrap.com/)
-
-* Foundation: [http://foundation.zurb.com/](http://foundation.zurb.com/)
-
-* Pure: [http://purecss.io/](http://purecss.io/)
-
-More frameworks, and comparison:
-
-* [http://usablica.github.io/front-end-frameworks/compare.html](http://usablica.github.io/front-end-frameworks/compare.html)
-
-Optional reading:
-
-* Dive into Responsive Prototyping with Foundation: [http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
-
-* Building Twitter Bootstrap: [http://alistapart.com/article/building-twitter-bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
-
-#####Practice:#####
-
-1. Build a Youtube video mosaic using Bootstrap, Foundation, and Pure based on the following wire-frame: [https://raw.github.com/globant-ui/html5bootcamp/master/assets/youtube_mosaic_home.png](https://raw.github.com/globant-ui/html5bootcamp/master/assets/youtube_mosaic_home.png). 
-
-2. Build the home page of a sports newspaper using Bootstrap, Foundation, and Pure based on the following wire-frame: [https://raw.github.com/globant-ui/html5bootcamp/master/assets/sports_newspaper.png](https://raw.github.com/globant-ui/html5bootcamp/master/assets/sports_newspaper.png).
-
-3. Validate your HTML/CSS using [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
-
-#####Key Points:#####
-
-1, 2
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#bookmark=id.48b72f1065a3)
-
-####Topic 3: Design Patterns and OOP in Javascript (3 days)####
+####Topic 2: Design Patterns and OOP in JavaScript (3 days)####
 
 #####Reading:#####
 
-1. Understand Javascript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+1. Understand JavaScript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
-2. Understand Javascript OO: [http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html](http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html)
+2. Understand JavaScript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
-3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about Javascript design patterns by Addy Osmani
+3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about JavaScript design patterns by Addy Osmani
 
 #####Extra documentation:#####
 
-* [Javascript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
+* [JavaScript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
 
 * [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA)
 
@@ -376,49 +314,9 @@ You should be able to do something like this in the console:
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
-####Topic 4: FrontEnd Development Best Practices (2 day)####
-
-#####Reading on Testing#####
-
-* Unit testing with Jasmine: [http://www.adobe.com/devnet/html5/articles/unit-test-javascript-applications-with-jasmine.html](http://www.adobe.com/devnet/html5/articles/unit-test-javascript-applications-with-jasmine.html)
-
-* Getting started with Jasmine: [http://pivotal.github.io/jasmine/](http://pivotal.github.io/jasmine/)
-
-#####Reading on Performance#####
-
-* Learn the basics of FrontEnd performance: 
-
-    1. [http://developer.yahoo.com/performance/](http://developer.yahoo.com/performance/)
-
-    2. [https://developers.google.com/speed/docs/insights/rules](https://developers.google.com/speed/docs/insights/rules)
-
-    3. [http://javascriptrocks.com/performance/](http://javascriptrocks.com/performance/)
-
-#####Reading on Task Automation#####
-
-* Grunt
-
-    * [http://gruntjs.com/](http://gruntjs.com/)
-
-    * [http://flippinawesome.org/2  013/07/01/building-a-javascript-library-with-grunt-js/](http://flippinawesome.org/2013/07/01/building-a-javascript-library-with-grunt-js/)
-
-#####Practice:#####
-
-1. Create tests for the files in the following repository: [https://github.com/globant-ui/html5bootcamp/tree/master/topic4](https://github.com/globant-ui/html5bootcamp/tree/master/topic4).
-
-2. Measure performance of the web pages developed during topic 2.
-
-3. Create a Grunt file to optimize the web pages developed during topic 2. Make sure you can optimize all JS, CSS, and images. Add tasks to lint CSS and JS files.
-
-4. Create a Grunt file to run all tests developed in exercise 1.
-
-5. Compare the performance of the optimized web pages against the result from exercise 2. Put the results in a README.md file. Explain the results.
-
-→ [index](#bookmark=id.48b72f1065a3)
-
-####Topic 5: AMD + RequireJS (1 day)####
+####Topic 3: AMD + RequireJS (1 day)####
 
 #####Reading:#####
 
@@ -432,9 +330,7 @@ Extra documentation:
 
 * [AMD: The Definitive Source](http://www.sitepen.com/blog/2012/06/25/amd-the-definitive-source/)
 
-* [Writing Modular Javascript](http://addyosmani.com/blog/writing-modular-javascript/)
-
-* [What are the use cases for RequireJS vs. Yepnope vs. LABjs?](http://www.quora.com/What-are-the-use-cases-for-RequireJS-vs-Yepnope-vs-LABjs) (Quora)
+* [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
 
 #####Practice:#####
 
@@ -461,7 +357,6 @@ You should be able to do something like this in the console:
 
 8. Using jQuery show Director quotes.
 
-9. Configure a Grunt script that uses grunt-contrib-requirejs to create a bundled version of the project.
 
 #####Key Points:#####
 
@@ -471,9 +366,9 @@ You should be able to do something like this in the console:
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
-####Topic 6: Template Engines (1 day)####
+####Topic 4: Template Engines (1 day)####
 
 #####Reading:#####
 
@@ -517,21 +412,18 @@ If it does not look good fix it with minimal changes.
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
-####Topic 7: MVC & Mixins (3 days)####
+####Topic 5: MVC & Mixins (3 days)####
 
 #####Reading:#####
 
 1. Read about the [MVC design pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
-2. [MVC Architecture for Javascript Applications](http://michaux.ca/articles/mvc-architecture-for-javascript-applications)
+2. [MVC Architecture for JavaScript Applications](http://michaux.ca/articles/mvc-architecture-for-javascript-applications)
 
 3. Learn the basics of [Backbone.js](http://documentcloud.github.com/backbone/); [https://github.com/addyosmani/backbone-fundamentals](https://github.com/addyosmani/backbone-fundamentals)
 
-4. Learn the basics of AngularJs: [http://angularjs.org/](http://angularjs.org/)
-
-5. Learn the basics of EmberJs: [http://emberjs.com/](http://emberjs.com/)  
 
 #####Practice:#####
 
@@ -541,70 +433,18 @@ Commit your practice code.
 
 3. Allow to add / edit / remove movies from the list.
 
-4. Implement the same application using Ember and Angular.
 
 #####Key Points:#####
 
-1, 4
+1, 2, 3
 
 #####Commit:#####
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
-####Topic 8: HTML5 Tags and CSS3(1 day)####
-
-#####Reading:#####
-
-1. Read about [new HTML tags](http://diveintohtml5.info/semantics.html).
-
-2. Make sure you understand the [CSS's Box Model](http://learn.shayhowe.com/html-css/box-model)
-
-    1. [http://reference.sitepoint.com/css/boxmodel](http://reference.sitepoint.com/css/boxmodel) (optional)
-
-    2. [https://developer.mozilla.org/en-US/docs/CSS/box_model](https://developer.mozilla.org/en-US/docs/CSS/box_model) (optional)
-
-3. Responsive Web Design
-
-    3. Read this [great article about responsive design](http://www.alistapart.com/articles/responsive-web-design/).
-
-    4. Read about *Layout Patterns*: [http://www.lukew.com/ff/entry.asp?1514](http://www.lukew.com/ff/entry.asp?1514)
-
-    5. Look at this collection of layout patterns: [http://www.maxdesign.com.au/articles/css-layouts/](http://www.maxdesign.com.au/articles/css-layouts/)
-
-4. Check out examples of responsive web design: [http://mediaqueri.es/](http://mediaqueri.es/)
-
-5. If you feel strong about CSS, then go pro: [http://learn.shayhowe.com/advanced-html-css/](http://learn.shayhowe.com/advanced-html-css/)
-
-#####Suggested readings:#####
-[CSS Specificity: Things You Should Know](http://www.google.com/url?q=http%3A%2F%2Fcoding.smashingmagazine.com%2F2007%2F07%2F27%2Fcss-specificity-things-you-should-know%2F&sa=D&sntz=1&usg=AFQjCNG3MN8l-eWjjx4yhsrtp8Y0TkAVSg)
-
-#####Practice:#####
-
-1. Create a basic page using the new HTML5 tags. That page must follow a fixed-desktop-layout.
-
-2. From the *layout patterns* article, implement the following patterns:
-
-    1. Mostly Fluid
-
-    2. Column Drop
-
-    3. Layout Shifter
-
-    4. Off Canvas
-
-#####Key Points:#####
-
-1, 2
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#bookmark=id.48b72f1065a3)
-
-####Topic 9: HTML5 APIs (1 day)####
+####Topic 6: HTML5 APIs (1 day)####
 
 #####Reading:#####
 
@@ -648,13 +488,13 @@ Commit your practice code.
 
 Commit your practice code.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 ###Your First Project Starts Now!###
 
 ####It’s time for the real thing.####
 
-You will work on a project to achieve a fully working multi platform mobile app developed in Javascript and using the latest tags and APIs available in HTML5.
+You will work on a project to achieve a fully working multi platform mobile app developed in JavaScript and using the latest tags and APIs available in HTML5.
 
 You will apply all the knowledge obtained during the learning weeks.
 
@@ -673,7 +513,7 @@ You will commit your code to GitHub on a daily basis.
 
 Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
 
-→ [index](#bookmark=id.48b72f1065a3)
+→ [index](#index)
 
 
 Thanks for reading!
