@@ -278,12 +278,14 @@ Commit your practice code.
 
 3. Add a MovieObserver class that listens for "*playing*" and “*stopped*” events.
 
-4. Publish "*playing*" event on Movie.play().
-You should be able to do something like this in the console:
-var terminator = new Movie();
-terminator.set('title', 'Terminator');
-...
-terminator.play(); //output: Playing Terminator...
+4. Publish "*playing*" event on Movie.play(). You should be able to do something like this in the console:
+   
+    ```js
+    var terminator = new Movie();
+    terminator.set('title', 'Terminator');
+    // ...
+    terminator.play(); // output: Playing Terminator...
+    ```
 
 5. Publish "*stopped*" event on Movie.stop().
 
@@ -295,12 +297,14 @@ terminator.play(); //output: Playing Terminator...
 
 9. Create a  mixin object called Social with the methods: share(friendName) and like().
 
-10. Apply the mixin to Movie object and play with the console output.
-You should be able to do something like this in the console:
-	var ironman2 = new Movie();
-	ironman2.set('title', 'Iron Man 2');
-	...
-	ironman2.share(‘V. Rivas’); //output: Sharing Iron Man 2 with V. Rivas
+10. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
+
+    ```js
+    var ironman2 = new Movie();
+    ironman2.set('title', 'Iron Man 2');
+    // ...
+    ironman2.share('V. Rivas'); // output: Sharing Iron Man 2 with V. Rivas
+    ```
 
 11. Create an Actor class and create some actors from one of your favorite movies.
 
