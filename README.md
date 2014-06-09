@@ -263,20 +263,19 @@ Commit your practice code.
 
 1. Create a Movie object:
 
-<table>
-  <tr>
-    <td>Movie</td>
-  </tr>
-  <tr>
-    <td>-attributes : hashmap</td>
-  </tr>
-  <tr>
-    <td>+ play() <br />+ stop()<br />+ set(attr:string, value)<br />+ get(attr:string)</td>
-  </tr>
-</table>
+    <table>
+        <tr>
+            <td>Movie</td>
+        </tr>
+        <tr>
+            <td>-attributes : hashmap</td>
+        </tr>
+        <tr>
+            <td>+ play() <br />+ stop()<br />+ set(attr:string, value)<br />+ get(attr:string)</td>
+        </tr>
+    </table>
 
-
-2. Instantiate some of your favourite movies and play with them in the console.
+2. Instantiate some of your favorite movies and play with them in the console.
 
 3. Add a MovieObserver class that listens for "*playing*" and “*stopped*” events.
 
