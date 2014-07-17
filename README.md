@@ -237,6 +237,8 @@ For each tweet show: from_user, text, created_at, profile_image_url.
 
 Test your code in a mobile device or in Android emulator.
 
+Hint: Two good options to test your application in a mobile device is to use Genimotion Android Emulator [http://www.genymotion.com/], which is one of the most fast and easy mobile emulators to install.
+
 #####Commit:#####
 
 Commit your practice code.
