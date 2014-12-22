@@ -372,53 +372,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 4: Template Engines (1 day)####
-
-#####Reading:#####
-
-1. Know [Handlebars](http://handlebarsjs.com/).
-
-2. Know [Underscore](http://documentcloud.github.com/underscore/) template parsing capabilities.
-
-3. Know [{dust}](http://www.google.com/url?q=http%3A%2F%2Fakdubya.github.com%2Fdustjs%2F&sa=D&sntz=1&usg=AFQjCNHxT9p9k0f-C7NBell-5HYVPgpHaw).
-
-#####Extra documentation:#####
-
-* Client-side template engine comparison: [http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more)
-
-#####Practice:#####
-
-1. Create a new index.html file and link the three template engines. The three files must be linked from a libs directory.
-
-2. Write a template for a professional profile (linkedIn alike but simpler).
-
-3. Create a JSON file with your professional profile data.
-
-4. When document finishes loading parse the template with your data.
-
-5. If you didn’t add work experience to the JSON file do it now using an array.
-
-6. Adjust your template and parse it using template engine facilities for iteration.
-
-7. Repeat with the next template engine from the reading list.
-
-#####Key Points:#####
-
-4, 6
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
-If it does not look good fix it with minimal changes. 
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 5: MVC & Mixins (3 days)####
+####Topic 4: MVC - Backbone####
 
 #####Reading:#####
 
@@ -437,10 +391,54 @@ Commit your practice code.
 
 3. Allow to add / edit / remove movies from the list.
 
+Tips:
+* Create a Model that represents a movie.
+* Create a Collection to represent a list of movies.
+* Create one view to render a movie, and another to render a list of movies.
 
 #####Key Points:#####
 
 1, 2, 3
+
+#####Commit:#####
+
+Commit your practice code.
+
+→ [index](#index)
+
+####Topic 5: AngularJS####
+
+#####Reading:#####
+
+1. [Ultimate guide to learn Angular.js in one day](http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/).
+
+2. Read Angular.js's [Developers Guide](https://docs.angularjs.org/guide).
+
+3. Check your code to comply with Angular.js's [Best Practices](https://github.com/angular/angular.js/wiki/Best-Practices). 
+
+4. Check your code to avoid Angular.js's [Anti-patterns](https://github.com/angular/angular.js/wiki/Anti-Patterns)
+
+#####Practice:#####
+
+1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
+
+2. Show movie details in a separate details view.
+
+3. Allow to add / edit / remove movies from the list.
+
+Tips:
+* Learn how to use ng-repeat (to render a list of movies).
+* Use [templateCache](https://docs.angularjs.org/api/ng/service/$templateCache) to access your templates.
+* Write a controller to add/edit/remove the movies. Create another controller to show details.
+* Use ng-router to access the movie listing as a default route. Create a route for the details view.
+
+#####Key Points:#####
+
+1, 2, 3
+
+#####Mobile Test:#####
+
+Test your code in a mobile device or in Android emulator.
 
 #####Commit:#####
 
