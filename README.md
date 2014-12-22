@@ -34,11 +34,11 @@
 
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
-    * [Topic 3: AMD + RequireJS](#topic-3-amd--requirejs-1-day)
+    * [Topic 3: NodeJS, NPM, and JavaScript Modules]()
+    
+    * [Topic 4: MVC]()
 
-    * [Topic 4: Template Engines](#topic-4-template-engines-1-day)
-
-    * [Topic 5: MVC + Backbone](#topic-5-mvc--mixins-3-days)
+    * [Topic 5: AngularJS]()
 
     * [Topic 6: HTML5 APIs](#topic-6-html5-apis-1-day)
 
@@ -175,7 +175,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 ####[Topic 0: HTML & CSS Basics (5 days)](https://github.com/globant-ui/css-lab)
 
-####Topic 1: JavaScript Intro and jQuery (1 day)####
+####Topic 1: JavaScript Intro and jQuery####
 
 #####Reading:#####
 
@@ -245,7 +245,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 2: Design Patterns and OOP in JavaScript (3 days)####
+####Topic 2: Design Patterns and OOP in JavaScript####
 
 #####Reading:#####
 
