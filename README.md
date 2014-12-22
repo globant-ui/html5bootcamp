@@ -34,11 +34,11 @@
 
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
-    * [Topic 3: NodeJS, NPM, and JavaScript Modules]()
+    * [Topic 3: NodeJS, NPM, and JavaScript Modules](#topic-3-nodejs-npm-and-javascript-modules)
     
-    * [Topic 4: MVC]()
+    * [Topic 4: MVC - Backbone](#topic-4-mvc---backbone)
 
-    * [Topic 5: AngularJS]()
+    * [Topic 5: MVC - AngularJS](#topic-5-mvc---angularjs)
 
     * [Topic 6: HTML5 APIs](#topic-6-html5-apis-1-day)
 
@@ -406,7 +406,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 5: AngularJS####
+####Topic 5: MVC - AngularJS####
 
 #####Reading:#####
 
