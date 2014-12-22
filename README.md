@@ -83,7 +83,7 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 → [index](#index)
 
-###Materials
+###Tools
 
 1. At least, three different browsers installed on the developer machine. Example, Chrome, Firefox, and the Android browser using Android's emulator.
 
@@ -201,9 +201,9 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 #####Practice:#####
 
-1. Create a basic index.html file. Use correct doctype, and tags. Add jQuery's latest version.
+1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content. Add jQuery's latest version.
 
-2. Add a stylesheet to the index.html. Use the stylesheet to center the text to all <section> elements of the page.
+2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all <section> elements of the page.
 
 3. Add a hidden <section> with the following text inside: "Hello world". 
 
@@ -221,17 +221,17 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 10. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
 
-11. AJAX: using *[jsonp](#extra-documentation)*, get the response from [http://tweetproxy.ap01.aws.af.cm/search](http://tweetproxy.ap01.aws.af.cm/search) with parameter data "q=html5"
-First log the service response in Chrome's console to analyze data, then display tweets inside another section in the right side of the screen. The <article> element must be used to contain the Tweets.
-For each tweet show: from_user, text, created_at, profile_image_url.
+11. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
+First log the service response in Chrome's console to analyze data, then display albums inside another section in the right side of the screen. The <article> element must be used to contain the album data.
+For each album show: name, type, image, release_date, and a link to spotify for that album.
 
-12. Add a transparent background covering the whole screen behind the tweets <section> so the background gets dimmed.
+12. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
 
 13. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
 #####Key Points:#####
 
-1, 5, 7, 10, 13
+1, 5, 7, 11, 13
 
 #####Mobile Test:#####
 
@@ -323,46 +323,43 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 3: AMD + RequireJS (1 day)####
+####Topic 3: NodeJS, NPM, and JavaScript Modules####
+There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modules. In this topic, you will learn how to write CommonJS modules. CommonJS is the module format used by NodeJS, and through the use of browserify they can be used in a browser. ES6 modules will be the standard way to write JavaScript in the future, once the major browsers finishes to add that feature.
 
 #####Reading:#####
 
-1. Read about [AMD paradigm](http://unscriptable.com/code/Using-AMD-loaders)
+1. For a good introduction to JavaScript Modules [Modules::Eloquent JavaScript](http://eloquentjavascript.net/10_modules.html)
 
-2. Read about [module pattern limitations](http://snook.ca/archives/javascript/no-love-for-module-pattern)
+2. Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
 
-3. Read [RequireJS documentation](http://requirejs.org/) and samples
-
-Extra documentation:
-
-* [AMD: The Definitive Source](http://www.sitepen.com/blog/2012/06/25/amd-the-definitive-source/)
-
-* [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
+3. Read on how to use Browserify [Browserify Handbook](https://github.com/substack/browserify-handbook)
 
 #####Practice:#####
 
-1. Create a new index.html file as you did it the first day.
+1. Create a new directory for this topic, and add a package.json. Tip: use ```npm init```.
 
-2. Add RequireJS .
+2. Install browserify globally in your environment. Tip: ```npm install -g browserify ```.
 
-3. Create the same Movie class as in the previous practice, but inside a module; the module will be an external file.
+3. Create the same Movie class as in the previous practice, but inside a CommonJS module. Tip: use ```module.exports```.
 
-4. Create a Director class inside a module and set it as a dependency on the Movie module. 
+4. Create a Director class inside a module and set it as a dependency on the Movie module. Tip: use ```require```.
 
-5. Add name:string, a quotes:array properties, and a speak()methods to Director; calling speak() will return director’s quotes.
+5. Create a movies.js file using browserify. Add that script to an index.html. Check that it works opening it in the browser.
 
-6. Add a Director to a Movie
-You should be able to do something like this in the console:
-    var alien = new Movie();
-	...
-	var ridleyScott = new Director(‘Ridley Scott’); //sets name in constructor
-	ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
-	alien.set('director', ridleyScott);
-	alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
+6. Add name:string, a quotes:array properties, and a speak() method to Director; calling speak() will return director’s quotes.
 
-7. Add jQuery as a module (hint: use the [shim](http://requirejs.org/docs/api.html#config-shim) support).
+7. Add a Director to a Movie. Implement the following API:
+```
+var alien = new Movie();
+var ridleyScott = new Director(‘Ridley Scott’);
+ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
+alien.set('director', ridleyScott);
+alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
+```
 
-8. Using jQuery show Director quotes.
+8. Add jQuery as a module.
+
+9. Using jQuery show Director quotes.
 
 
 #####Key Points:#####
