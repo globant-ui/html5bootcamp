@@ -259,7 +259,7 @@ Commit your practice code.
 
 * [JavaScript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
 
-* [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA)
+* [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA). Pay attention on the section about the ```extend```function. That function is one of the *MOST* used patterns in JavaScript for code reusability.
 
 #####Practice:#####
 
@@ -296,7 +296,7 @@ Commit your practice code.
 
 7. Refactor Movie class as a Module keeping your previous code for reference.
 
-8. Create a DownloadableMovie that extends from Movie adding a download` `method.
+8. Create a DownloadableMovie that extends from Movie adding a download method. Here you will have to set the correct ```prototype``` to DownloadableMovie.
 
 9. Create a  mixin object called Social with the methods: share(friendName) and like().
 
