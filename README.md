@@ -173,7 +173,7 @@ JavaScript is a programming language that runs in all Web Browsers. It allows to
 
 Now that you know which are the three pilars of a web application's UI, it's time to dive into them in more depth.
 
-####[Topic 0: HTML & CSS Basics (5 days)](https://github.com/globant-ui/css-lab)
+####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
 
 ####Topic 1: JavaScript Intro and jQuery####
 
@@ -446,7 +446,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 6: HTML5 APIs (1 day)####
+####Topic 6: HTML5 APIs####
 
 #####Reading:#####
 
