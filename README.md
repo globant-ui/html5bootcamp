@@ -203,26 +203,26 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content. Add jQuery's latest version.
 
-2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all <section> elements of the page.
+2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all ```section``` elements of the page.
 
-3. Add a hidden <section> with the following text inside: "Hello world". 
+3. Add a hidden ```section``` with the following text inside: "Hello world". 
 
-4. Add a button below the <section> to your index.html.
+4. Add a button below the ```section``` to your index.html.
 
 5. When the page has finished loading the section must fade in.
 
-6. Add a textbox with the class "alias", and put the cursor inside it right after the <section> fades in.
+6. Add a textbox with the class "alias", and put the cursor inside it right after the ```section``` fades in.
 
 7. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/tunombre](http://bootcamp.aws.af.cm/welcome/tunombre)
 
-8. Write the response to the <section> element.
+8. Write the response to the ```section``` element.
 
-9. Show <section> content in red when a server error occurs.
+9. Show ```section``` content in red when a server error occurs.
 
 10. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
 
 11. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
-First log the service response in Chrome's console to analyze data, then display albums inside another section in the right side of the screen. The <article> element must be used to contain the album data.
+First log the service response in Chrome's console to analyze data, then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
 For each album show: name, type, image, release_date, and a link to spotify for that album.
 
 12. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
