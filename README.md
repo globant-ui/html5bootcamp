@@ -384,14 +384,20 @@ Commit your practice code.
 
 3. Learn the basics of [Backbone.js](http://documentcloud.github.com/backbone/); [https://github.com/addyosmani/backbone-fundamentals](https://github.com/addyosmani/backbone-fundamentals)
 
+4. Learn about [Handlebars.js](http://handlebarsjs.com/)
+
 
 #####Practice:#####
 
-1. Using Backbone, create a movie listing with your favorite movies. Data shall be persisted in localhost.
+1. Write one Handlebars template to show the details of a movie (name, year, description or plot, genre, etc). Use [imdb](http://www.imdb.com/) or [Netflix](http://www.netflix.com/) for inspiration.
 
-2. Show movie details in a separate details view.
+2. Create a second template to render a list of movies.
 
-3. Allow to add / edit / remove movies from the list.
+3. Using Backbone, create a movie listing with your favorite movies. Data shall be persisted in localhost.
+
+4. Show movie details in a separate details view.
+
+5. Allow to add / edit / remove movies from the list.
 
 Tips:
 * Create a Model that represents a movie.
