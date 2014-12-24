@@ -1,7 +1,7 @@
 
 #HTML5 Boot Camp
 
-##The future of Web Apps is here!
+##The future of Web Applications is here!
 ###Are you ready for it?
   
 ####Index
@@ -46,13 +46,13 @@
 
 ###Objective
 
-This course teaches the basics of modern Web UI development which enables the creation of best of breed user experiences, gaming, and mobile applications.
+This course teaches the basics of modern Web UI development. We want to help you create the best of breed user experiences, gaming, and mobile applications.
 
 → [index](#index)
 
 ###Who Should Attend
 
-The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on HTML, CSS, and JavaScript is desired, though.
+The training will start at a low level, and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on HTML, CSS, and JavaScript is desired, though.
 
 → [index](#index)
 
@@ -169,9 +169,9 @@ HTML describes the content semantics and structure of a web page. It was designe
 
 On the other hand, CSS allows to define the look and feel of the content. It's used to set colors on HTML elements, customize sizes, define the layout of the document content, among others. (e.x. "The following list of elements must be shown as a menu", "The main title of the page should use this particular font").
 
-JavaScript is a programming language that runs in all Web Browsers. It allows to add dynamism to a web page, by supplying a way to have more control over user interaction, and allowing altering the document content that is displayed.
+JavaScript is a programming language that runs in all Web Browsers. Using JavaScript we can create full-fledge web applications.
 
-Now that you know which are the three pilars of a web application's UI, it's time to dive into them in more depth.
+Now that you know which are the three pilars of a web application's UI, it's time to dive into them.
 
 ####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
 
