@@ -324,7 +324,7 @@ Commit your practice code.
 → [index](#index)
 
 ####Topic 3: NodeJS, NPM, and JavaScript Modules####
-There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modules. In this topic, you will learn how to write CommonJS modules. CommonJS is the module format used by NodeJS, and through the use of browserify they can be used in a browser. ES6 modules will be the standard way to write JavaScript in the future, once the major browsers finishes to add that feature.
+There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modules. In this topic, you will learn how to write CommonJS modules. CommonJS is the module format used by NodeJS, and through the use of browserify they can be used in a browser. ES6 modules will be the standard way to write JavaScript in the future, once the major browsers finish to add that feature.
 
 #####Reading:#####
 
