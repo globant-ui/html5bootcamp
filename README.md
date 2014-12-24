@@ -199,6 +199,8 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 * JSONP and CORS: [http://json-p.org/](http://json-p.org/) - [http://www.html5rocks.com/en/tutorials/cors/](http://www.html5rocks.com/en/tutorials/cors/)
 
+* Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console) 
+
 #####Practice:#####
 
 1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content. Add jQuery's latest version.
@@ -213,7 +215,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 6. Add a textbox with the class "alias", and put the cursor inside it right after the ```section``` fades in.
 
-7. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/tunombre](http://bootcamp.aws.af.cm/welcome/tunombre)
+7. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/yourname](http://bootcamp.aws.af.cm/welcome/yourname)
 
 8. Write the response to the ```section``` element.
 
@@ -222,7 +224,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 10. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
 
 11. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
-First log the service response in Chrome's console to analyze data, then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
+First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
 For each album show: name, type, image, release_date, and a link to spotify for that album.
 
 12. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
