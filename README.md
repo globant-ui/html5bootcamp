@@ -28,9 +28,9 @@
 
 11. [Learning Days](#learning-days)
 
-    * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics-5-days)
+    * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics)
 
-    * [Topic 1: JavaScript Intro and jQuery](#topic-1-javascript-intro-and-jquery-1-day)
+    * [Topic 1: JavaScript Intro and jQuery](#topic-1-javascript-intro-and-jquery)
 
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
