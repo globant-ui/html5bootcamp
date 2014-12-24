@@ -261,7 +261,7 @@ Commit your practice code.
 
 * [JavaScript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
 
-* [A fresh look at JavaScript Mixins](http://www.google.com/url?q=http%3A%2F%2Fjavascriptweblog.wordpress.com%2F2011%2F05%2F31%2Fa-fresh-look-at-javascript-mixins%2F&sa=D&sntz=1&usg=AFQjCNG2JuQos_dZy63pUOC7fCIwhtirZA). Pay attention on the section about the ```extend```function. That function is one of the *MOST* used patterns in JavaScript for code reusability.
+* [A fresh look at JavaScript Mixins](http://javascriptweblog.wordpress.com/2011/05/31/a-fresh-look-at-javascript-mixins/). Pay attention on the section about the ```extend```function. That function is one of the *MOST* used patterns in JavaScript for code reusability.
 
 #####Practice:#####
 
