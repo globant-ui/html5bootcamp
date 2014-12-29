@@ -386,6 +386,8 @@ Commit your practice code.
 
 4. Learn about [Handlebars.js](http://handlebarsjs.com/)
 
+5. Become familiar with [Jasmine](http://jasmine.github.io/2.1/introduction.html) syntaxis to write testing specs. Learn how to use Jasmine to test Backbone.js applications: [http://addyosmani.github.io/backbone-fundamentals/#jasmine](http://addyosmani.github.io/backbone-fundamentals/#jasmine)
+
 
 #####Practice:#####
 
@@ -398,6 +400,8 @@ Commit your practice code.
 4. Show movie details in a separate details view.
 
 5. Allow to add / edit / remove movies from the list.
+
+6. Add Jasmine tests for the different views and models. 
 
 Tips:
 * Create a Model that represents a movie.
@@ -426,6 +430,8 @@ Commit your practice code.
 
 4. Check your code to avoid Angular.js's [Anti-patterns](https://github.com/angular/angular.js/wiki/Anti-Patterns)
 
+5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing) 
+
 #####Practice:#####
 
 1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
@@ -433,6 +439,8 @@ Commit your practice code.
 2. Show movie details in a separate details view.
 
 3. Allow to add / edit / remove movies from the list.
+
+4. Configure Karma and write tests for the controllers of your application.
 
 Tips:
 * Learn how to use ng-repeat (to render a list of movies).
@@ -454,7 +462,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 6: HTML5 APIs####
+####Topic 6: HTML5 APIs - Optional -####
 
 #####Reading:#####
 
