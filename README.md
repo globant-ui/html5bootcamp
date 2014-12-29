@@ -40,7 +40,7 @@
 
     * [Topic 5: MVC - AngularJS](#topic-5-mvc---angularjs)
 
-    * [Topic 6: HTML5 APIs](#topic-6-html5-apis-1-day)
+    * [Topic 6: HTML5 APIs](#topic-6-html5-apis---optional--)
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
