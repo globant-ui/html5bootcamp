@@ -183,7 +183,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 2. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
 
-3. Recommended: [jQuery Fundamentals](http://jqfundamentals.com/book/index.html) 
+3. Recommended: [jQuery Fundamentals](http://jqfundamentals.com/)
 
 4. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
 
