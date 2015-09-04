@@ -3,7 +3,7 @@
 
 ##The future of Web Applications is here!
 ###Are you ready for it?
-  
+
 ####Index
 
 1. [Objective](#objective)
@@ -35,12 +35,14 @@
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
     * [Topic 3: NodeJS, NPM, and JavaScript Modules](#topic-3-nodejs-npm-and-javascript-modules)
-    
+
     * [Topic 4: MVC - Backbone](#topic-4-mvc---backbone)
 
     * [Topic 5: MVC - AngularJS](#topic-5-mvc---angularjs)
 
-    * [Topic 6: HTML5 APIs](#topic-6-html5-apis---optional--)
+    * [Topic 6: UI - ReactJS](#topic-6-ui---reactjs)
+
+    * [Topic 7: HTML5 APIs](#topic-6-html5-apis---optional--)
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
@@ -60,7 +62,7 @@ The training will start at a low level, and does not require in depth knowledge 
 
 Five weeks total.
 
-Three weeks for guided learning and two weeks for app development. 
+Three weeks for guided learning and two weeks for app development.
 
 → [index](#index)
 
@@ -79,7 +81,7 @@ You can contact other bootcamp participants or any available tutor if you need t
 
 ###Handling Advanced Developers
 
-Developers that move faster than average can go ahead and complete as much exercises as wanted. 
+Developers that move faster than average can go ahead and complete as much exercises as wanted.
 
 → [index](#index)
 
@@ -91,9 +93,9 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 3. Skype Account + headset (audio calls)
 
-4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account. 
+4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
 
-5. Install your own NodeJS server. 
+5. Install your own NodeJS server.
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
   * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
@@ -103,13 +105,13 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 → [index](#index)
 
- 
+
 
 ###General Guidelines
 
 The boot camp is organized in the following way:
 
-1. The first three weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room. 
+1. The first three weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room.
 
 2. The next two weeks will be used to develop an application following a life process.
 
@@ -199,7 +201,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 * JSONP and CORS: [http://json-p.org/](http://json-p.org/) - [http://www.html5rocks.com/en/tutorials/cors/](http://www.html5rocks.com/en/tutorials/cors/)
 
-* Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console) 
+* Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console)
 
 #####Practice:#####
 
@@ -207,7 +209,7 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all ```section``` elements of the page.
 
-3. Add a hidden ```section``` with the following text inside: "Hello world". 
+3. Add a hidden ```section``` with the following text inside: "Hello world".
 
 4. Add a button below the ```section``` to your index.html.
 
@@ -284,7 +286,7 @@ Commit your practice code.
 3. Add a MovieObserver class that listens for "*playing*" and “*stopped*” events.
 
 4. Publish "*playing*" event on Movie.play(). You should be able to do something like this in the console:
-   
+
     ```js
     var terminator = new Movie();
     terminator.set('title', 'Terminator');
@@ -401,7 +403,7 @@ Commit your practice code.
 
 5. Allow to add / edit / remove movies from the list.
 
-6. Add Jasmine tests for the different views and models. 
+6. Add Jasmine tests for the different views and models.
 
 Tips:
 * Create a Model that represents a movie.
@@ -426,11 +428,11 @@ Commit your practice code.
 
 2. Read Angular.js's [Developers Guide](https://docs.angularjs.org/guide).
 
-3. Check your code to comply with Angular.js's [Best Practices](https://github.com/angular/angular.js/wiki/Best-Practices). 
+3. Check your code to comply with Angular.js's [Best Practices](https://github.com/angular/angular.js/wiki/Best-Practices).
 
 4. Check your code to avoid Angular.js's [Anti-patterns](https://github.com/angular/angular.js/wiki/Anti-Patterns)
 
-5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing) 
+5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing)
 
 #####Practice:#####
 
@@ -462,7 +464,70 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 6: HTML5 APIs - Optional -####
+####Topic 6: UI - ReactJS####
+
+#####Reading:#####
+
+1. [What is ReactJS?](http://facebook.github.io/react/). [Here](http://www.instrument.com/latest/an-introduction-to-react-js) is an introduction to it.
+
+2. First [get started with ReactJS](https://facebook.github.io/react/docs/getting-started.html) then [Think in React](https://facebook.github.io/react/docs/thinking-in-react.html).
+
+3. Understand [Props & States](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md).
+
+4. Read about some ReactJS's [Best Practices, Patterns & Anti-patters](https://github.com/planningcenter/react-patterns).
+
+5. Check some ReactJS's [Test utils](https://facebook.github.io/react/docs/test-utils.html).
+
+6. Try on using [Reactify](https://github.com/andreypopp/reactify) [ReactJS + Browserify workflow](https://www.codementor.io/reactjs/tutorial/react-js-browserify-workflow-part-1).
+
+7. Understanding [React Router](https://github.com/rackt/react-router/tree/master).
+
+8. Understanding [Flux](https://facebook.github.io/flux/docs/overview.html).
+
+#####Complmenetary reading:#####
+
+* [Full guide on ReactJS](https://scotch.io/tutorials/learning-react-getting-started-and-concepts).
+
+* [Read some ReactJS tips](https://facebook.github.io/react/tips/introduction.html).
+
+* [Use React with Gulp + Browserify](https://github.com/globant-ui-rosario/react-browserify-example).
+
+* [Use React with ReactRouter + Flux](https://github.com/globant-ui-rosario/react-flux-example).
+
+#####Practice:#####
+
+1. Create the needed components to allow the user create a new Movie.
+
+2. Create the needed components to show a list of your favorite Movies.
+
+3. Create the needed components to allow the user edit a Movie.
+
+4. Update the movie listing to allow the user delete movies.
+
+5. Update the application to use ReactRouter and Flux.
+
+**Tips:**
+- First, try to think which should be your app structure (in terms of components).
+- Second, figure out which component should handle the movies.
+- You should create a component when trying to create a view (a view is also a component).
+- To update the application with ReactRouter and Flux you may split out the add logic and the display logic into two views.
+  Also you may provide the data storage (object) responsibility to Flux's storages.
+
+#####Key Points:#####
+
+1, 2, 4.
+
+#####Mobile Test:#####
+
+Test your code in a mobile device or in Android emulator.
+
+#####Commit:#####
+
+Commit your practice code.
+
+→ [index](#index)
+
+####Topic 7: HTML5 APIs - Optional -####
 
 #####Reading:#####
 
@@ -484,7 +549,7 @@ Commit your practice code.
 
 #####Practice:#####
 
-1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB. 
+1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
 
 2. Add a clear button to erase saved content.
 
@@ -535,4 +600,3 @@ Tutors will give you feedback at the end of each sprint by reviewing and comment
 
 
 Thanks for reading!
-
