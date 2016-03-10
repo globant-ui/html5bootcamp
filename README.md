@@ -30,7 +30,7 @@
 
     * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics)
 
-    * [Topic 1: JavaScript Intro and jQuery](#topic-1-javascript-intro-and-jquery)
+    * [Topic 1: JavaScript, and DOM APIs](#topic-1-javascript-intro-and-jquery)
 
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
@@ -176,19 +176,15 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 ####[Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
 
-####Topic 1: JavaScript Intro and jQuery####
+####Topic 1: JavaScript, and DOM APIs####
 
 #####Reading:#####
 
-1. Beginners: Eloquent JavaScript [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
+1. Beginner: Eloquent JavaScript 2nd Edition [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
-2. Beginners: Have fun with [Codecademy](http://www.codecademy.com/courses/jquery-and-the-dom) (more experienced devs might find it fun!).
+2. Beginner to advance: [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/)
 
-3. Recommended: [jQuery Fundamentals](http://jqfundamentals.com/)
-
-4. Explore [jQuery documentation](http://docs.jquery.com/Main_Page)
-
-5. JavaScript Prototypes: [http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470](http://www.slideshare.net/Dmitry.Baranovskiy/demystifying-prototypes-6183470)
+3. Recommended: [devdocs.io](http://devdocs.io/) to check Web platform documentation around JavaScript, frameworks, Browser APIs, etc
 
 #####Extra documentation:#####
 
@@ -196,7 +192,9 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 * MDN JavaScript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
 
-* Annotated ECMAScript 5.1: [http://es5.github.com/](http://es5.github.com/)
+* Understanding ECMAScript 6: [https://leanpub.com/understandinges6/read](https://leanpub.com/understandinges6/read)
+
+* [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/) *For really advanced developers*
 
 * JSONP and CORS: [http://json-p.org/](http://json-p.org/) - [http://www.html5rocks.com/en/tutorials/cors/](http://www.html5rocks.com/en/tutorials/cors/)
 
@@ -204,7 +202,9 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 #####Practice:#####
 
-1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content. Add jQuery's latest version.
+**Use latest IE, Chrome, or Firefox browser to develop. Try to use as much ECMAScript 6 syntax as you can. Favor ```let``` and ```const``` over ```var```**
+
+1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content.
 
 2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all ```section``` elements of the page.
 
@@ -212,29 +212,29 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 4. Add a button below the ```section``` to your index.html.
 
-5. When the page has finished loading the section must fade in.
+5. When the page has finished loading the section must fade in. *Hint: Use JavaScript, Browser Events, and CSS3*
 
-6. Add a textbox with the class "alias", and put the cursor inside it right after the ```section``` fades in.
+6. Add a textbox with the class "alias", and put the cursor inside it right after the document has loaded.
 
-7. Attach an event to the created button which calls a function that gets a response from [http://bootcamp.aws.af.cm/welcome/yourname](http://bootcamp.aws.af.cm/welcome/yourname)
+7. Attach an event to the created button which calls a function that gets a response from [http://www.icndb.com/api/](http://www.icndb.com/api/)
 
 8. Write the response to the ```section``` element.
 
 9. Show ```section``` content in red when a server error occurs.
 
-10. Take some free air and then create a function to highlight your name in the server response content. Call it right after setting the response inside the div.
-
-11. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
+10. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
 First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
 For each album show: name, type, image, release_date, and a link to spotify for that album.
 
-12. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
+11. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
 
-13. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+12. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+
+13. Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page. *Hint: use ```document.createElement```, ```document.createTextNode```, and ```Node.appendChild``` methods*
 
 #####Key Points:#####
 
-1, 5, 7, 11, 13
+5, 7, 10, 11, 13
 
 #####Mobile Test:#####
 
