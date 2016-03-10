@@ -38,9 +38,9 @@
 
     * [Topic 4: MVC - AngularJS](#topic-4-mvc---angularjs)
 
-    * [Topic 5: HTML5 APIs](#topic-5-html5-apis---optional--)
+    * [Topic 5: HTML5 APIs](#topic-5-html5-apis)
 
-    * [Topic 6 (Optional): UI - ReactJS](#topic-6-ui---reactjs)
+    * [Topic 6 (Optional): UI - ReactJS](#topic-6-optional-ui---reactjs)
 
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
