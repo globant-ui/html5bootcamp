@@ -36,13 +36,12 @@
 
     * [Topic 3: NodeJS, NPM, and JavaScript Modules](#topic-3-nodejs-npm-and-javascript-modules)
 
-    * [Topic 4: MVC - Backbone](#topic-4-mvc---backbone)
+    * [Topic 4: MVC - AngularJS](#topic-4-mvc---angularjs)
 
-    * [Topic 5: MVC - AngularJS](#topic-5-mvc---angularjs)
+    * [Topic 5: HTML5 APIs](#topic-5-html5-apis---optional--)
 
-    * [Topic 6: UI - ReactJS](#topic-6-ui---reactjs)
+    * [Topic 6 (Optional): UI - ReactJS](#topic-6-ui---reactjs)
 
-    * [Topic 7: HTML5 APIs](#topic-6-html5-apis---optional--)
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
 
@@ -376,51 +375,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 4: MVC - Backbone####
-
-#####Reading:#####
-
-1. Read about the [MVC design pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-
-2. [MVC Architecture for JavaScript Applications](http://michaux.ca/articles/mvc-architecture-for-javascript-applications)
-
-3. Learn the basics of [Backbone.js](http://documentcloud.github.com/backbone/); [https://github.com/addyosmani/backbone-fundamentals](https://github.com/addyosmani/backbone-fundamentals)
-
-4. Learn about [Handlebars.js](http://handlebarsjs.com/)
-
-5. Become familiar with [Jasmine](http://jasmine.github.io/2.1/introduction.html) syntaxis to write testing specs. Learn how to use Jasmine to test Backbone.js applications: [http://addyosmani.github.io/backbone-fundamentals/#jasmine](http://addyosmani.github.io/backbone-fundamentals/#jasmine)
-
-
-#####Practice:#####
-
-1. Write one Handlebars template to show the details of a movie (name, year, description or plot, genre, etc). Use [imdb](http://www.imdb.com/) or [Netflix](http://www.netflix.com/) for inspiration.
-
-2. Create a second template to render a list of movies.
-
-3. Using Backbone, create a movie listing with your favorite movies. Data shall be persisted in localhost.
-
-4. Show movie details in a separate details view.
-
-5. Allow to add / edit / remove movies from the list.
-
-6. Add Jasmine tests for the different views and models.
-
-Tips:
-* Create a Model that represents a movie.
-* Create a Collection to represent a list of movies.
-* Create one view to render a movie, and another to render a list of movies.
-
-#####Key Points:#####
-
-1, 2, 3
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 5: MVC - AngularJS####
+####Topic 4: MVC - AngularJS####
 
 #####Reading:#####
 
@@ -464,7 +419,53 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 6: UI - ReactJS####
+####Topic 5: HTML5 APIs####
+
+#####Reading:#####
+
+1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
+
+    1. Storage APIs: [http://www.html5rocks.com/en/features/storage](http://www.html5rocks.com/en/features/storage)
+
+    2. Graphic APIs: [http://www.html5rocks.com/en/features/graphics](http://www.html5rocks.com/en/features/graphics)
+
+    3. Connectivity APIs: [http://www.html5rocks.com/en/features/connectivity](http://www.html5rocks.com/en/features/connectivity)
+
+    4. Drag & Drop API: [http://html5doctor.com/native-drag-and-drop/](http://html5doctor.com/native-drag-and-drop/)
+
+    5. File APIs: [http://www.html5rocks.com/en/features/file_access](http://www.html5rocks.com/en/features/file_access)
+
+2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
+
+3. Use [http://playground.html5rocks.com/](http://playground.html5rocks.com/) to play a little bit with them.
+
+#####Practice:#####
+
+1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
+
+2. Add a clear button to erase saved content.
+
+3. Add drag and drop support to load text files.
+
+4. Open a web socket and test it against [this echo service](http://websocket.org/echo.html).
+
+5. Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
+
+6. Using the Canvas API animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
+
+7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
+
+#####Key Points:#####
+
+1, 3, 6
+
+#####Commit:#####
+
+Commit your practice code.
+
+→ [index](#index)
+
+####Topic 6 (Optional): UI - ReactJS####
 
 #####Reading:#####
 
@@ -520,52 +521,6 @@ Commit your practice code.
 #####Mobile Test:#####
 
 Test your code in a mobile device or in Android emulator.
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 7: HTML5 APIs - Optional -####
-
-#####Reading:#####
-
-1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
-
-    1. Storage APIs: [http://www.html5rocks.com/en/features/storage](http://www.html5rocks.com/en/features/storage)
-
-    2. Graphic APIs: [http://www.html5rocks.com/en/features/graphics](http://www.html5rocks.com/en/features/graphics)
-
-    3. Connectivity APIs: [http://www.html5rocks.com/en/features/connectivity](http://www.html5rocks.com/en/features/connectivity)
-
-    4. Drag & Drop API: [http://html5doctor.com/native-drag-and-drop/](http://html5doctor.com/native-drag-and-drop/)
-
-    5. File APIs: [http://www.html5rocks.com/en/features/file_access](http://www.html5rocks.com/en/features/file_access)
-
-2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
-
-3. Use [http://playground.html5rocks.com/](http://playground.html5rocks.com/) to play a little bit with them.
-
-#####Practice:#####
-
-1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
-
-2. Add a clear button to erase saved content.
-
-3. Add drag and drop support to load text files.
-
-4. Open a web socket and test it against [this echo service](http://websocket.org/echo.html).
-
-5. Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
-
-6. Using the Canvas API animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
-
-7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
-
-#####Key Points:#####
-
-1, 3, 6
 
 #####Commit:#####
 
