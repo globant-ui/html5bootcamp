@@ -210,31 +210,28 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 3. Add a hidden ```section``` with the following text inside: "Hello world".
 
-4. Add a button below the ```section``` to your index.html.
+4. When the page has finished loading the section must fade in. *Hint: Use JavaScript, Browser Events, and CSS3*
 
-5. When the page has finished loading the section must fade in. *Hint: Use JavaScript, Browser Events, and CSS3*
+5. Add a button below the ```section``` to your index.html.
 
-6. Add a textbox with the class "alias", and put the cursor inside it right after the document has loaded.
+6. Attach a click event to the created button which calls a function that gets a response from [http://api.icndb.com/jokes/random](http://api.icndb.com/jokes/random). Write the response to the ```section``` element. *Hint: use the XMLHttpRequest to fetch data from the service*
 
-7. Attach an event to the created button which calls a function that gets a response from [http://www.icndb.com/api/](http://www.icndb.com/api/)
+7. From the previous exercise create a reusable function to perform AJAX calls. The function must accept a ```config``` object and return an ES6 Promise.
 
-8. Write the response to the ```section``` element.
+8. Show ```section``` content in red when a server error occurs.
 
-9. Show ```section``` content in red when a server error occurs.
-
-10. AJAX: get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'"
-First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
+9. Use the function created in exercise 6 to get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'". First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
 For each album show: name, type, image, release_date, and a link to spotify for that album.
 
-11. Add an input type="text", and reuse the code for exercise 11, so the user can perform search for any artist albums.
+10. Add an input type="text", and reuse the code for exercise 9, so the user can perform search for any artist albums.
 
-12. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+11. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
-13. Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page. *Hint: use ```document.createElement```, ```document.createTextNode```, and ```Node.appendChild``` methods*
+12. Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page. *Hint: use ```document.createElement```, ```document.createTextNode```, and ```Node.appendChild``` methods*
 
 #####Key Points:#####
 
-5, 7, 10, 11, 13
+4, 7, 10, 12
 
 #####Mobile Test:#####
 
