@@ -269,9 +269,7 @@ Commit your practice code.
             <td>Movie</td>
         </tr>
         <tr>
-            <td>-title</td>
-            <td>-year</td>
-            <td>-duration</td>
+            <td>- title<br />- year<br /><br />- duration</td>
         </tr>
         <tr>
             <td>+ play() <br />+ pause()<br />+ resume()<br /></td>
@@ -280,9 +278,9 @@ Commit your practice code.
 
 2. Instantiate some of your favorite movies and play with them in the console.
 
-3. Add an EventEmitter class with the following methods: ```on```, ```emit```, ```off```. The ```on``` method will allow to pass a callback or **listener** that will be executed each time a given event is triggered. The ```emit``` method will allow a class to trigger events to be consumed by other functions/objects. The ```off``` method will delete the listener.
+3. Create an EventEmitter class with the following methods: ```on```, ```emit```, ```off```. The ```on``` method will allow to pass a callback or **listener** that will be executed each time a given event is triggered. The ```emit``` method will allow a class to trigger events to be consumed by other functions/objects. The ```off``` method will delete the listener.
 
-4. Publish "*play*" event on Movie.play().
+4. Make Movie a subclass of EventEmitter. Publish "*play*" event on Movie.play(), "*pause*" event on Movie.pause(), and "*resume*" event on Movie.resume()
 
 5. Create a Logger class with a ```log(info)``` method that will output ```info``` to the console. Make ```log``` listen to a Movie's 'play' event. You should be able to do something like this in the console:
 
@@ -294,15 +292,13 @@ Commit your practice code.
     terminator.play(); // output: The 'play' event has been emitted
     ```
 
-6. Publish "*pause*" event on Movie.pause(), and "*resume*" event on Movie.resume().
+6. Refactor Movie class as a Module keeping your previous code for reference.
 
-7. Refactor Movie class as a Module keeping your previous code for reference.
+7. Create a DownloadableMovie that extends from Movie adding a download method. Here you will have to set the correct ```prototype``` to DownloadableMovie.
 
-8. Create a DownloadableMovie that extends from Movie adding a download method. Here you will have to set the correct ```prototype``` to DownloadableMovie.
+8. Create a  mixin object called Social with the methods: share(friendName) and like(). *Hint: use Object.assign*
 
-9. Create a  mixin object called Social with the methods: share(friendName) and like(). *Hint: use Object.assign*
-
-10. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
+9. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
 
     ```js
     var ironman2 = new Movie('Iron Man', '2005', 95);
@@ -310,9 +306,9 @@ Commit your practice code.
     ironman2.share('Mike Blossom'); // output: Sharing Iron Man with Mike Blossom
     ```
 
-11. Create an Actor class and create some actors from one of your favorite movies.
+10. Create an Actor class and create some actors from one of your favorite movies.
 
-12. Show how you would add an array of actors to a Movie object.
+11. Show how you would add an array of actors to a Movie object.
 
 #####Key Points:#####
 
