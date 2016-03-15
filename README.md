@@ -34,13 +34,11 @@
 
     * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
 
-    * [Topic 3: NodeJS, NPM, and JavaScript Modules](#topic-3-nodejs-npm-and-javascript-modules)
+    * [Topic 3: MVC - AngularJS](#topic-3-mvc---angularjs)
 
-    * [Topic 4: MVC - AngularJS](#topic-4-mvc---angularjs)
+    * [Topic 4: HTML5 APIs](#topic-4-html5-apis)
 
-    * [Topic 5: HTML5 APIs](#topic-5-html5-apis)
-
-    * [Topic 6 (Optional): UI - ReactJS](#topic-6-optional-ui---reactjs)
+    * [Topic 5 (Optional): UI - ReactJS](#topic-5-optional-ui---reactjs)
 
 
 12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
@@ -245,20 +243,19 @@ Commit your practice code.
 → [index](#index)
 
 ####Topic 2: Design Patterns and OOP in JavaScript####
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost al the beggining. ECMAScript6 provides a layer of sintactic sugar that is expected to help you learn faster.
 
 #####Reading:#####
 
-1. Understand JavaScript Prototypes: [http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/](http://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+1. Understand how *prototypes* works in ECMAScript 5.1 [http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
 
-2. Understand JavaScript OO: [http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+2. ECMAScript 6 New Features: [http://es6-features.org/](http://es6-features.org/). You can compare ECMAScript 5 and 6 code.
 
-3. Read [this](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) article about JavaScript design patterns by Addy Osmani
+3. Read the Chapter on JavaScript classes from [*Understanding ECMAScript6*](https://leanpub.com/understandinges6/read#leanpub-auto-classes) 
 
-#####Extra documentation:#####
+4. Read about [ES6 Modules](https://ponyfoo.com/articles/es6-modules-in-depth)  
 
-* [JavaScript Patterns Collection](http://shichuan.github.com/javascript-patterns/)
-
-* [A fresh look at JavaScript Mixins](http://javascriptweblog.wordpress.com/2011/05/31/a-fresh-look-at-javascript-mixins/). Pay attention on the section about the ```extend```function. That function is one of the *MOST* used patterns in JavaScript for code reusability.
+5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/) 
 
 #####Practice:#####
 
@@ -269,7 +266,7 @@ Commit your practice code.
             <td>Movie</td>
         </tr>
         <tr>
-            <td>- title<br />- year<br /><br />- duration</td>
+            <td>- title <br />- year <br />- duration</td>
         </tr>
         <tr>
             <td>+ play() <br />+ pause()<br />+ resume()<br /></td>
@@ -310,6 +307,8 @@ Commit your practice code.
 
 11. Show how you would add an array of actors to a Movie object.
 
+12. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
+
 #####Key Points:#####
 
 3, 5, 8, 10, 12
@@ -320,56 +319,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 3: NodeJS, NPM, and JavaScript Modules####
-There are three ways to write modules in JavaScript: AMD, CommonJS, and ES6 Modules. In this topic, you will learn how to write CommonJS modules. CommonJS is the module format used by NodeJS, and through the use of browserify they can be used in a browser. ES6 modules will be the standard way to write JavaScript in the future, once the major browsers finish to add that feature.
-
-#####Reading:#####
-
-1. For a good introduction to JavaScript Modules [Modules::Eloquent JavaScript](http://eloquentjavascript.net/10_modules.html)
-
-2. Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
-
-3. Read on how to use Browserify [Browserify Handbook](https://github.com/substack/browserify-handbook)
-
-#####Practice:#####
-
-1. Create a new directory for this topic, and add a package.json. Tip: use ```npm init```.
-
-2. Install browserify globally in your environment. Tip: ```npm install -g browserify ```.
-
-3. Create the same Movie class as in the previous practice, but inside a CommonJS module. Tip: use ```module.exports```.
-
-4. Create a Director class inside a module and set it as a dependency on the Movie module. Tip: use ```require```.
-
-5. Create a movies.js file using browserify. Add that script to an index.html. Check that it works opening it in the browser.
-
-6. Add name:string, a quotes:array properties, and a speak() method to Director; calling speak() will return director’s quotes.
-
-7. Add a Director to a Movie. Implement the following API:
-```
-var alien = new Movie();
-var ridleyScott = new Director(‘Ridley Scott’);
-ridleyScott.set('quotes', ['Cast is everything.', 'Do what ...']);
-alien.set('director', ridleyScott);
-alien.get('director').speak(); //output: Ridley Scott says: 'Cast is...'
-```
-
-8. Add jQuery as a module.
-
-9. Using jQuery show Director quotes.
-
-
-#####Key Points:#####
-
-2, 3
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 4: MVC - AngularJS####
+####Topic 3: MVC - AngularJS####
 
 #####Reading:#####
 
@@ -413,7 +363,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 5: HTML5 APIs####
+####Topic 4: HTML5 APIs####
 
 #####Reading:#####
 
@@ -459,7 +409,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 6 (Optional): UI - ReactJS####
+####Topic 5 (Optional): UI - ReactJS####
 
 #####Reading:#####
 
@@ -479,7 +429,7 @@ Commit your practice code.
 
 8. Understanding [Flux](https://facebook.github.io/flux/docs/overview.html).
 
-#####Complmenetary reading:#####
+#####Extra reading:#####
 
 * [Full guide on ReactJS](https://scotch.io/tutorials/learning-react-getting-started-and-concepts).
 
