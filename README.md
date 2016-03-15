@@ -220,10 +220,9 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 8. Show ```section``` content in red when a server error occurs.
 
-9. Use the function created in exercise 6 to get the response from [https://api.spotify.com/v1/search](https://api.spotify.com/v1/search) with parameters data "q = 'Rolling Stones', type = 'album'". First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display albums inside another section in the right side of the screen. The ```article``` element must be used to contain the album data.
-For each album show: name, type, image, release_date, and a link to spotify for that album.
+9. Use the function created in exercise 6 to get the response from [https://api.github.com/search/repositories](https://api.github.com/search/repositories) with parameters data "q = 'JavaScript'". First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display repository's ```full_name``` as a list in the right side of the screen. The ```ul``` element must be used to list the repositories data.
 
-10. Add an input type="text", and reuse the code for exercise 9, so the user can perform search for any artist albums.
+10. Add an input type="text", and reuse the code for exercise 9, so the user can perform search for any repository.
 
 11. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
