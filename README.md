@@ -243,7 +243,7 @@ Commit your practice code.
 → [index](#index)
 
 ####Topic 2: Design Patterns and OOP in JavaScript####
-In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost al the beggining. ECMAScript6 provides a layer of sintactic sugar that is expected to help you learn faster.
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost at the beggining. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
 
 #####Reading:#####
 
