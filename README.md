@@ -289,19 +289,15 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
     terminator.play(); // output: The 'play' event has been emitted
     ```
 
-6. Create a  mixin object called Social with the methods: share(friendName) and like(). *Hint: use Object.assign*
-
-7. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
+6. Create an object called Social with methods share(friendName) and like(friendName) that will generate the following output "{friendName} likes/share {Movie Name}". *Hint: declare Social as an object literal, use Object.assign to mix Social methods into a Movie instance. Use Template Literals to generate the like/share method output*. You should be able to do something like this in the console:
 
     ```js
-    let ironman2 = new Movie('Iron Man', '2005', 95);
-    // ...
-    ironman2.share('Mike Blossom'); // output: Sharing Iron Man with Mike Blossom
+    ironman.share('Mike Blossom'); // output: Share Iron Man with Mike Blossom
     ```
 
-8. Create an Actor class and create some actors from one of your favorite movies.
+7. Create an Actor class and create some actors from one of your favorite movies.
 
-9. Add a method to Movie that will allow to add one or more actors at the same time.
+8. Add a method to Movie that will allow to add one or more actors at the same time.
    ```js
    let terminator = new Movie('Terminator I', 1985, 60);
    let arnold = new Actor('Arnold Schwarzenegger', 50);
@@ -314,11 +310,11 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
    terminator.addCast(arnold);
    terminator.addCast(otherCast); //Movie must contain an array of 4 actors
    ```
-10. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
+9. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
 
 #####Key Points:#####
 
-3, 5, 8, 10, 12
+5, 6, 8, 9
 
 #####Commit:#####
 
