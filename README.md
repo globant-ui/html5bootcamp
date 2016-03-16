@@ -257,6 +257,8 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
 
 5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/) 
 
+6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features) 
+
 #####Practice:#####
 
 1. Create a Movie object:
