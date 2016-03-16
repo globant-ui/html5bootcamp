@@ -289,25 +289,32 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
     terminator.play(); // output: The 'play' event has been emitted
     ```
 
-6. Refactor Movie class as a Module keeping your previous code for reference.
+6. Create a  mixin object called Social with the methods: share(friendName) and like(). *Hint: use Object.assign*
 
-7. Create a DownloadableMovie that extends from Movie adding a download method. Here you will have to set the correct ```prototype``` to DownloadableMovie.
-
-8. Create a  mixin object called Social with the methods: share(friendName) and like(). *Hint: use Object.assign*
-
-9. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
+7. Apply the mixin to Movie object and play with the console output. You should be able to do something like this in the console:
 
     ```js
-    var ironman2 = new Movie('Iron Man', '2005', 95);
+    let ironman2 = new Movie('Iron Man', '2005', 95);
     // ...
     ironman2.share('Mike Blossom'); // output: Sharing Iron Man with Mike Blossom
     ```
 
-10. Create an Actor class and create some actors from one of your favorite movies.
+8. Create an Actor class and create some actors from one of your favorite movies.
 
-11. Show how you would add an array of actors to a Movie object.
+9. Add a method to Movie that will allow to add one or more actors at the same time.
+   ```js
+   let terminator = new Movie('Terminator I', 1985, 60);
+   let arnold = new Actor('Arnold Schwarzenegger', 50);
+   let otherCast = [
+     new Actor('Paul Winfield', 50),
+     new Actor('Michael Biehn', 50),
+     new Actor('Linda Hamilton', 50)
+   ];
 
-12. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
+   terminator.addCast(arnold);
+   terminator.addCast(otherCast); //Movie must contain an array of 4 actors
+   ```
+10. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
 
 #####Key Points:#####
 
