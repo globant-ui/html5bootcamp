@@ -346,13 +346,10 @@ Commit your practice code.
 
 3. Allow to add / edit / remove movies from the list.
 
-4. Configure Karma and write tests for the controllers of your application.
+4. Configure Karma and write tests for your application.
 
 Tips:
-* Learn how to use ng-repeat (to render a list of movies).
-* Use [templateCache](https://docs.angularjs.org/api/ng/service/$templateCache) to access your templates.
-* Write a controller to add/edit/remove the movies. Create another controller to show details.
-* Use ng-router to access the movie listing as a default route. Create a route for the details view.
+* Learn how to use [components](https://docs.angularjs.org/guide/component) to structure your application
 
 #####Key Points:#####
 
@@ -374,19 +371,9 @@ Commit your practice code.
 
 1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
 
-    1. Storage APIs: [http://www.html5rocks.com/en/features/storage](http://www.html5rocks.com/en/features/storage)
-
-    2. Graphic APIs: [http://www.html5rocks.com/en/features/graphics](http://www.html5rocks.com/en/features/graphics)
-
-    3. Connectivity APIs: [http://www.html5rocks.com/en/features/connectivity](http://www.html5rocks.com/en/features/connectivity)
-
-    4. Drag & Drop API: [http://html5doctor.com/native-drag-and-drop/](http://html5doctor.com/native-drag-and-drop/)
-
-    5. File APIs: [http://www.html5rocks.com/en/features/file_access](http://www.html5rocks.com/en/features/file_access)
-
 2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
 
-3. Use [http://playground.html5rocks.com/](http://playground.html5rocks.com/) to play a little bit with them.
+3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/) 
 
 #####Practice:#####
 
@@ -396,7 +383,7 @@ Commit your practice code.
 
 3. Add drag and drop support to load text files.
 
-4. Open a web socket and test it against [this echo service](http://websocket.org/echo.html).
+4. Open a web socket and test it against [this echo service](http://www.websocket.org/echo.html).
 
 5. Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
 
@@ -406,7 +393,7 @@ Commit your practice code.
 
 #####Key Points:#####
 
-1, 3, 6
+1, 3, 4, 7
 
 #####Commit:#####
 
@@ -430,9 +417,6 @@ Commit your practice code.
 
 6. Try on using [Reactify](https://github.com/andreypopp/reactify) [ReactJS + Browserify workflow](https://www.codementor.io/reactjs/tutorial/react-js-browserify-workflow-part-1).
 
-7. Understanding [React Router](https://github.com/rackt/react-router/tree/master).
-
-8. Understanding [Flux](https://facebook.github.io/flux/docs/overview.html).
 
 #####Extra reading:#####
 
@@ -440,9 +424,6 @@ Commit your practice code.
 
 * [Read some ReactJS tips](https://facebook.github.io/react/tips/introduction.html).
 
-* [Use React with Gulp + Browserify](https://github.com/globant-ui-rosario/react-browserify-example).
-
-* [Use React with ReactRouter + Flux](https://github.com/globant-ui-rosario/react-flux-example).
 
 #####Practice:#####
 
