@@ -1,0 +1,72 @@
+html{
+	font-family: 'Verdana', sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+}
+
+header{
+	background-color: red;
+	text-align: center;
+}
+
+footer{
+	background-color: orange;
+	text-align: center;
+}
+
+aside{
+	background-color: orangered;
+}
+
+nav{
+	background-color: gold; 
+}
+
+.header{
+	float: left;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	font-size: 46px;
+}
+.footer{
+	float: left;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+.content{
+	float: left;
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.navigation{
+	float: left;
+	width: 25%;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+.sidebar{
+	float: left;
+	width: 25%;
+	display: inline-block;
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+
+*[class$="r"]{
+	background-color: magenta;
+}
+
+[class*="a"]:not(*[class$="r"]) {
+	background-color: blue;
+}
+
+ .oh-no-inline-styles{
+ 	background: green !important;
+ }
