@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<head>
+	<title>Title</title>
+</head>
+<body>
+<form>
+<!--First we take the personal info. about the user -->
+<label for="txtFirstName"> First name: </label>
+<input type="text" id="txtFirstName" required="Required">
+
+<label for="txtLastName"> Last name: </label>
+<input type="text" id="txtLastName" required="Required">
+
+<label for="txtEmail"> Email: </label>
+<input type="email" id="txtEmail" required="Required">
+
+<label for="txtBirthday"> Birthday: </label>
+<input type="text" id="txtBirthday">
+<hr>
+<br>
+
+<!-- After personal information we ask him about his favourite sport in a dropdown menu-->
+<select id="selFavouriteSport">
+	<option value="1">Soccer</option>
+	<option value="2">Basketball</option>
+	<option value="3">Golf</option>
+	<option value="4">Baseball</option>
+</select>
+<hr>
+
+<!-- Ask the user for a comment in a text area-->
+<br>
+<textarea id="txtComment" placeholder="Comments..."></textarea>
+
+<!-- Finally a pair of buttons to send the form, or delete it -->
+<br>
+<input type="submit" value="Submit form">
+<input type="button" id="btnClear" value="Clear form">
+</form>
+</body>
+</html>

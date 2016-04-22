@@ -1,0 +1,38 @@
+#contenedora{
+    background-color: black;
+    height: 900px;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: red;
+}
+
+nav{
+    float: left;
+    background-color: orange;
+    height: 650px;
+    width: 15%;
+}
+
+aside{
+    float: right;
+    background-color: yellow;
+    height: 650px;
+    width: 15%;
+}
+
+footer{
+    background-color:darkgreen;
+    height: 100px;
+    width: 100%;
+    margin-top: 650px;
+}
+
+section{
+    float: left;
+    background-color: deepskyblue;
+    height: 650px;
+    width: 70%;
+}
