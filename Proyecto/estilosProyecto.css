@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.general{
+
+    margin: auto;
+    margin-top: 1%;
+    width: 1500px;
+    max-width: 2000px;
+    height: 1000px;
+    box-sizing: border-box;
+    background-image: url(imgs/lluvia.jpg);
+    background-size: 1500px 1000px
+        
+}
+
+/*
+---------------
+HEADER SECTION
+---------------
+*/
+header{
+    width: 100%;
+    height: 16%;
+    background-color: cadetblue;
+}
+
+
+
+header img{
+    width: 20%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+header h1{
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    font-family: sans-serif;
+    color: #000;
+}
+
+/*
+---------------
+NAV SECTION
+---------------
+*/
+
+nav {
+    float: right;
+    width:30%; 
+    margin:0 auto;
+
+}
+
+nav > li {
+    float:right;
+}
+
+nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+nav li a:hover {
+    background-color:#434343;
+}
+
+nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+nav li:hover > ul {
+    display:block;
+}
+
+nav li ul li {
+    position:relative;
+}
+
+nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+ul, ol {
+    list-style:none;
+}
+
+/*
+---------------
+ARTICLE SECTION
+---------------
+*/
+
+article{
+    float: right;
+    margin-right: 2%;
+    width: 30%;
+    height: 100%;
+    max-height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+
+article img{
+    width: 80%;
+    height: 40%;
+ 
+}
+/*
+---------------
+SECTION
+---------------
+*/
+
+section{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 97%;
+    height: 58%;
+    background: rgba(0,0,0,0.5);
+}
+
+section iframe{
+    width: 35%;
+    height: 40%
+}
+
+/*
+-----------------------
+TITLES AND TEXT SECTION
+-----------------------
+*/
+
+h3, h2{
+    color: white;
+    font-family: monospace;
+
+}
+
+h4{
+    color: white;
+    font-family: sans-serif
+}
+
+p{
+    color: white;
+    margin-left: 1%;
+    width: 40%;
+}
+
+
+
+.boton{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    width:80px;
+    height:19px;
+}
+
+/*
+---------------
+FOOTER SECTION
+---------------
+*/
+
+footer{
+    margin-top: 6%;
+    height: 10%;
+    background-color: burlywood;
+    float: bottom;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 2%
+}
+
+@media screen and (max-width: 800px ){
+    section{
+        width: 100%;
+    }
+    
+    aside{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen  and(max-width: 400px){
+    .general{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    
+    header, image{
+        display: none;
+    }
+}
+
+/*
+---------------
+ACTORS SECTION
+---------------
+*/
+
+.artActores{
+    float: left;
+    text-align: left;
+}
+.artActores h2 h3 h4{
+    color: white;
+    font-family: monospace;
+}
+
+/*
+---------------
+PREMIERES SECTION
+---------------
+*/
+
