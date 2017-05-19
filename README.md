@@ -38,7 +38,7 @@ Are you ready for it?
     * [Topic 5 (Optional): UI - ReactJS](#topic5)
 
 
-11. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
+10. [Your First Project Starts Now](#your-first-project-starts-now)
 
 ### **Objective**
 
@@ -257,7 +257,9 @@ This topic is hosted in a different repository, you can find it in [HTML & CSS B
 
 <h4 id="topic2">Topic 2 - Design Patterns and OOP in JavaScript</h4>
 
-In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost at the beggining. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. 
+If you come from Java, or .NET you will find yourself a little bit lost at the beggining. 
+ECMAScript6 provides a layer of syntactic sugar over the previous version (5.1) that is expected to simplify the language.
 
 **Reading**
 
@@ -273,7 +275,7 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
 
 6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features) 
 
-#####Practice:#####
+**Practice**
 
 1. Create a Movie object:
 
@@ -328,19 +330,15 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
    ```
 9. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
 
-#####Key Points:#####
+**Key Points**
 
 5, 6, 8, 9
-
-#####Commit:#####
-
-Commit your practice code.
 
 → [index](#index)
 
 <h4 id="topic3">Topic 3 - MVC AngularJS</h4>
 
-#####Reading:#####
+**Reading**
 
 1. [Ultimate guide to learn Angular.js in one day](http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/).
 
@@ -352,7 +350,7 @@ Commit your practice code.
 
 5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing)
 
-#####Practice:#####
+**Practice**
 
 1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
 
@@ -365,23 +363,15 @@ Commit your practice code.
 Tips:
 * Learn how to use [components](https://docs.angularjs.org/guide/component) to structure your application
 
-#####Key Points:#####
+**Key Points**
 
 1, 2, 3
-
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
-#####Commit:#####
-
-Commit your practice code.
 
 → [index](#index)
 
 <h4 id="topic4">Topic 4 - HTML5 APIs</h4>
 
-#####Reading:#####
+**Reading**
 
 1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
 
@@ -389,7 +379,7 @@ Commit your practice code.
 
 3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/) 
 
-#####Practice:#####
+**Practice**
 
 1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
 
@@ -405,19 +395,15 @@ Commit your practice code.
 
 7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
 
-#####Key Points:#####
+**Key Points**
 
 1, 3, 4, 7
-
-#####Commit:#####
-
-Commit your practice code.
 
 → [index](#index)
 
 <h4 id="topic5">Topic 5 - UI ReactJS (Optional)</h4>
 
-#####Reading:#####
+**Reading**
 
 1. [What is ReactJS?](http://facebook.github.io/react/). [Here](http://www.instrument.com/latest/an-introduction-to-react-js) is an introduction to it.
 
@@ -432,14 +418,14 @@ Commit your practice code.
 6. Try on using [Reactify](https://github.com/andreypopp/reactify) [ReactJS + Browserify workflow](https://www.codementor.io/reactjs/tutorial/react-js-browserify-workflow-part-1).
 
 
-#####Extra reading:#####
+**Extra reading**
 
 * [Full guide on ReactJS](https://scotch.io/tutorials/learning-react-getting-started-and-concepts).
 
 * [Read some ReactJS tips](https://facebook.github.io/react/tips/introduction.html).
 
 
-#####Practice:#####
+**Practice**
 
 1. Create the needed components to allow the user create a new Movie.
 
@@ -451,51 +437,33 @@ Commit your practice code.
 
 5. Update the application to use ReactRouter and Flux.
 
-**Tips:**
+**Tips**
 - First, try to think which should be your app structure (in terms of components).
 - Second, figure out which component should handle the movies.
 - You should create a component when trying to create a view (a view is also a component).
 - To update the application with ReactRouter and Flux you may split out the add logic and the display logic into two views.
   Also you may provide the data storage (object) responsibility to Flux's storages.
 
-#####Key Points:#####
+**Key Points**
 
 1, 2, 4.
 
-#####Mobile Test:#####
-
-Test your code in a mobile device or in Android emulator.
-
-#####Commit:#####
-
-Commit your practice code.
-
 → [index](#index)
 
-###Your First Project Starts Now!###
+### Your First Project Starts Now
 
-####It’s time for the real thing.####
+**It’s time for the real thing**
 
 You will work on a project to achieve a fully working multi platform mobile app developed in JavaScript and using the latest tags and APIs available in HTML5.
 
 You will apply all the knowledge obtained during the learning weeks.
 
-You’ll be given with a backlog of user stories you will estimate with your PM.
+Will you be able to consult documentation? Of course! 
 
-Once estimated, user stories will be divided into sprints of one week.
+You will be able to use any resource you know that helps you complete your project, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web has plenty of awesome resources waiting for you to grasp them!
 
-You will participate on daily scrum meetings.
-Will you be able to consult documentation? Of course! You will be able to use any resource you know that helps you complete your user stories, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web is plenty of awesome resources waiting for you to grasp them!
+**Reviews**
 
-####Commits####
-
-You will commit your code to GitHub on a daily basis.
-
-####Reviews####
-
-Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
+Tutors will give you feedback at the end of the project by reviewing and commenting your committed code in GitHub.
 
 → [index](#index)
-
-
-Thanks for reading!
