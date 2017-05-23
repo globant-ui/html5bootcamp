@@ -472,27 +472,43 @@ Tips:
 
 **Practice**
 
-1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
+1.  Storages
 
-2. Add a clear button to erase saved content.
+    *   Create a page with a textarea and a save button.
 
-3. Add drag and drop support to load text files.
+    *   Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
 
-4. Open a web socket and test it against [this echo service](http://www.websocket.org/echo.html).
+    *   Add a clear button to erase saved content.
 
-5. Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
+2.  Drag and Drop
 
-6. Using the Canvas API animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
+    *   Add drag and drop support to load text files.
 
-7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
+
+3.  WebSockets
+
+    *   Open a web socket and test it against [this service](http://www.websocket.org/echo.html).
+
+
+4.  SVG
+
+    *   Create a web page with a SVG element to show a vector graphic.
+        Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
+
+
+5.  Canvas
+
+    *   Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
+
+    *   Using the Canvas API, animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
 
 **Key Points**
 
-1, 3, 4, 7
+1, 2, 3, 4
 
 → [index](#index)
 
-<h4 id="topic5">Topic 5 - UI ReactJS (Optional)</h4>
+<h4 id="topic5">Topic 5 - UI ReactJS</h4>
 
 **Reading**
 
@@ -508,6 +524,7 @@ Tips:
 
 6. Try on using [Reactify](https://github.com/andreypopp/reactify) [ReactJS + Browserify workflow](https://www.codementor.io/reactjs/tutorial/react-js-browserify-workflow-part-1).
 
+7. [Redux](http://redux.js.org/docs/introduction/)
 
 **Extra reading**
 
@@ -526,7 +543,9 @@ Tips:
 
 4. Update the movie listing to allow the user delete movies.
 
-5. Update the application to use ReactRouter and Flux.
+5. Update the application to use Redux
+
+6. Update the application to use ReactRouter
 
 **Tips**
 - First, try to think which should be your app structure (in terms of components).
@@ -537,7 +556,7 @@ Tips:
 
 **Key Points**
 
-1, 2, 4.
+1, 2, 5
 
 → [index](#index)
 
