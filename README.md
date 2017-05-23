@@ -35,7 +35,7 @@ Are you ready for it?
 
     * [Topic 4: HTML5 APIs](#topic4)
 
-    * [Topic 5 (Optional): UI - ReactJS](#topic5)
+    * [Topic 5: UI - ReactJS](#topic5)
 
 
 10. [Your First Project Starts Now](#your-first-project-starts-now)
