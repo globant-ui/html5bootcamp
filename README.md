@@ -42,15 +42,15 @@ Are you ready for it?
 
 ### **Objective**
 
-This course teaches the basics of modern Web UI development. 
+This course teaches the basics of modern Web UI development.
 We want to help you create the best of breed user experiences, gaming, and mobile applications.
 
 → [index](#index)
 
 ### **Who Should Attend**
 
-The training will start at a low level, and does not require in depth knowledge of the platform in question. 
-Desirable participant profile: trainees and outside Globant candidates. 
+The training will start at a low level, and does not require in depth knowledge of the platform in question.
+Desirable participant profile: trainees and outside Globant candidates.
 A basic knowledge on HTML, CSS, and JavaScript is desired, though.
 
 → [index](#index)
@@ -65,7 +65,7 @@ Three weeks for guided learning and two weeks for app development.
 
 ### **Technical Assistance**
 
-You can contact other bootcamp participants or any available tutor if you need technical assistance. 
+You can contact other bootcamp participants or any available tutor if you need technical assistance.
 We will create one chat for bootcamp members only, and another one for boot camp members and tutors when boot camp starts.
 
 ### **Performance Measurement**
@@ -85,12 +85,12 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 ### **Tools**
 
-1.  At least, three different browsers installed on the developer machine.As Example: 
-    
+1.  At least, three different browsers installed on the developer machine.As Example:
+
     *   Chrome
     *   Firefox
     *   Android browser using Android's emulator
-    
+
 
 2.  Any IDE available for Web Development.
 
@@ -118,8 +118,8 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 The boot camp is organized in the following way:
 
-1.  The first three weeks will be used for intensive self learning. 
-    Each topic will have reading and practices parts. 
+1.  The first three weeks will be used for intensive self learning.
+    Each topic will have reading and practices parts.
     Tutors will be available to answer technical questions.
 
 2.  The next week will be used to develop an application following a life process.
@@ -143,7 +143,7 @@ On each learning day you will have to:
 1.  **Read:** We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
 
 2.  **Practice:** You will implement the previously gathered knowledge in simple coding activities.
-    Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention. 
+    Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention.
     If you feel you don’t have enough time to complete all tasks, start with these ones when possible.
 
 3.  **Commit:** YOu will commit all your code as soon as you finish each exercise. If not you must commit your work in a daily basis.
@@ -199,7 +199,7 @@ This topic is hosted in a different repository, you can find it in [HTML & CSS B
 1.  Creating our index page with some sections.
 
     *   Create a file called `index.html` with the correct doctype and some random content.
-    
+
     *   Add a stylesheet to the HTML file and use it to center the texts of all `section` elements.
 
     *   Add a hidden `section` with `Hello World` inside of it.
@@ -226,7 +226,7 @@ This topic is hosted in a different repository, you can find it in [HTML & CSS B
     *   Create a reusable function to perform AJAX calls. This function must accept a `config` object and return an ES6 Promise.
 
     *   If a server error occurs `section` content must turn red.
-    
+
     *   **Hint:** Use the XMLHttpRequest to fetch data from the service.
 
 4.  Data fetching with parameters
@@ -245,8 +245,8 @@ This topic is hosted in a different repository, you can find it in [HTML & CSS B
 
 6.  DOM manipulation
 
-    *   Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page. 
-    
+    *   Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page.
+
     *   **Hint:** use `document.createElement`, `document.createTextNode`, and `Node.appendChild` methods.
 
 **Key Points:**
@@ -257,8 +257,9 @@ This topic is hosted in a different repository, you can find it in [HTML & CSS B
 
 <h4 id="topic2">Topic 2 - Design Patterns and OOP in JavaScript</h4>
 
-In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. 
-If you come from Java, or .NET you will find yourself a little bit lost at the beggining. 
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming.
+
+If you come from Java, or .NET you will find yourself a little bit lost at the beggining.
 ECMAScript6 provides a layer of syntactic sugar over the previous version (5.1) that is expected to simplify the language.
 
 **Reading**
@@ -267,72 +268,162 @@ ECMAScript6 provides a layer of syntactic sugar over the previous version (5.1) 
 
 2. ECMAScript 6 New Features: [http://es6-features.org/](http://es6-features.org/). You can compare ECMAScript 5 and 6 code.
 
-3. Read the Chapter on JavaScript classes from [*Understanding ECMAScript6*](https://leanpub.com/understandinges6/read#leanpub-auto-classes) 
+3. Read the Chapter on JavaScript classes from [*Understanding ECMAScript6*](https://leanpub.com/understandinges6/read#leanpub-auto-classes)
 
 4. Read about [ES6 Modules](https://ponyfoo.com/articles/es6-modules-in-depth)  
 
-5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/) 
+5. Extra: Read about AMD, CommonJS, and ES6 Modules [Writing Modular JavaScript](http://addyosmani.com/blog/writing-modular-javascript/)
 
-6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features) 
+6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
 
 **Practice**
 
-1. Create a Movie object:
+1.  Creating classes
 
-    <table>
-        <tr>
-            <td>Movie</td>
-        </tr>
-        <tr>
-            <td>- title <br />- year <br />- duration</td>
-        </tr>
-        <tr>
-            <td>+ play() <br />+ pause()<br />+ resume()<br /></td>
-        </tr>
-    </table>
+    *   Create a Movie Class with the following structure
 
-2. Instantiate some of your favorite movies and play with them in the console.
+        <table>
+            <tr>
+                <td>Movie</td>
+            </tr>
+            <tr>
+                <td>
+                    - title <br />
+                    - year <br />
+                    - duration
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor(name, year, duration) <br />
+                    + play() <br />
+                    + pause()<br />
+                    + resume()
+                </td>
+            </tr>
+        </table>
 
-3. Create an EventEmitter class with the following methods: ```on```, ```emit```, ```off```. The ```on``` method will allow to pass a callback or **listener** that will be executed each time a given event is triggered. The ```emit``` method will allow a class to trigger events to be consumed by other functions/objects. The ```off``` method will delete the listener.
+    *   Instantiate some of your favorite movies and play with them in the console.
 
-4. Make Movie a subclass of EventEmitter. Publish "*play*" event on Movie.play(), "*pause*" event on Movie.pause(), and "*resume*" event on Movie.resume()
+    *   Create an Actor class with the following structure
 
-5. Create a Logger class with a ```log(info)``` method that will output ```info``` to the console. Make ```log``` listen to a Movie's 'play' event. You should be able to do something like this in the console:
+        <table>
+            <tr>
+                <td>Actor</td>
+            </tr>
+            <tr>
+                <td>
+                    - name <br />
+                    - age
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor(name, age)
+                </td>
+            </tr>
+        </table>
 
-    ```js
-    let terminator = new Movie('Terminator', 1984, 90);
-    let logger = new Logger();
-    terminator.on('play', logger.log);
-    // ...
-    terminator.play(); // output: The 'play' event has been emitted
-    ```
+    *   Create a class called EventEmitter with the following structure
 
-6. Create an object called Social with methods share(friendName) and like(friendName) that will generate the following output "{friendName} likes/share {Movie Name}". *Hint: declare Social as an object literal, use Object.assign to mix Social methods into a Movie instance. Use Template Literals to generate the like/share method output*. You should be able to do something like this in the console:
+        <table>
+            <tr>
+                <td>EventEmitter</td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor()<br />
+                    + on(eventName, callback) <br />
+                    + emit(eventName)<br />
+                    + off(eventName, callback)
+                </td>
+            </tr>
+        </table>
 
-    ```js
-    ironman.share('Mike Blossom'); // output: Share Iron Man with Mike Blossom
-    ```
+        The `on` method will receive a eventName and a callback or **listener** that will be executed each time a that event is triggered.
 
-7. Create an Actor class and create some actors from one of your favorite movies.
+        The `emit` method will trigger events to be consumed by other functions or objects.
 
-8. Add a method to Movie that will allow to add one or more actors at the same time.
-   ```js
-   let terminator = new Movie('Terminator I', 1985, 60);
-   let arnold = new Actor('Arnold Schwarzenegger', 50);
-   let otherCast = [
-     new Actor('Paul Winfield', 50),
-     new Actor('Michael Biehn', 50),
-     new Actor('Linda Hamilton', 50)
-   ];
+        The `off` method will delete previously defined event listeners.
 
-   terminator.addCast(arnold);
-   terminator.addCast(otherCast); //Movie must contain an array of 4 actors
-   ```
-9. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
+2.  Class heritage
+
+    *   Make the Movie class a subclass of EventEmitter and use the inherited methods to publish `play`, `pause` and `resume` events when the related method is called.
+
+3.  Working with classes
+
+    *   Add a method to Movie as `addCast(cast)` that allows the addition of one or more Actors to a move. It must accept if provided more than one Actor at the same time.
+
+        You should be able to do something like
+
+        ```js
+        const terminator = new Movie('Terminator I', 1985, 60);
+        const arnold = new Actor('Arnold Schwarzenegger', 50);
+        const actors = [
+            new Actor('Paul Winfield', 50),
+            new Actor('Michael Biehn', 50),
+            new Actor('Linda Hamilton', 50)
+        ];
+
+        terminator.addCast(arnold);
+        terminator.addCast(otherCast);
+        ```
+
+    *   Create a Logger class with the following structure
+
+        <table>
+            <tr>
+                <td>Logger</td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor()<br />
+                    + log(info)
+                </td>
+            </tr>
+        </table>
+
+        After creating this class make an instance of Logger and make it listen to Movie's `play` event.
+
+        As example you must end with something like
+
+        ```js
+        const terminator = new Movie('Terminator I', 1985, 60);
+
+        ...
+
+        terminator.play(); // output: The 'play' event has been emitted
+        ```
+
+4.  Mixins
+
+    *   Create an object called social, defining the methods `share(friendName)` and `like(friendName)` that generates the following output `{friendName} likes/share {movieName}`.
+
+        Then extend a movie with it to have access to this methods.
+
+        You should end with something like
+
+        ```js
+        const ironman = new Movie(...);
+
+        ...
+
+        ironman.share('Mike Blossom');
+        ```
+
+        **Hint:** A mixin is not a class which will be instantiated later on. Use a way to extend some object methods into another object. Template literals might be useful to generate the required output.
+
+5.  ES6 Modules
+
+    *   Split all your classes into different files.
+
+    *   Using babel create a single JS bundle.
+
+    **Hint:** check out [this](https://babeljs.io/docs/usage/cli/)
 
 **Key Points**
 
-5, 6, 8, 9
+3, 4, 5, 6
 
 → [index](#index)
 
@@ -377,7 +468,7 @@ Tips:
 
 2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
 
-3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/) 
+3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/)
 
 **Practice**
 
@@ -458,7 +549,7 @@ You will work on a project to achieve a fully working multi platform mobile app 
 
 You will apply all the knowledge obtained during the learning weeks.
 
-Will you be able to consult documentation? Of course! 
+Will you be able to consult documentation? Of course!
 
 You will be able to use any resource you know that helps you complete your project, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web has plenty of awesome resources waiting for you to grasp them!
 
