@@ -12,7 +12,7 @@ header {
   border: 1px solid #000;
 }
 
-.MENU {
+.navigation {
   width: 300px;
   height: 897px;
   border: 1px solid #000;
@@ -20,14 +20,14 @@ header {
   float: left;
 }
 
-.MENU ul {}
+.navigation ul {}
 
-.MENU ul li {
+.navigation ul li {
   list-style: none;
   text-align: left;
 }
 
-.MENU ul li a {
+.navigation ul li a {
   text-decoration: none;
   padding: 100px 0px;
   color: #fff;
@@ -40,7 +40,7 @@ header h2 {
 
 }
 
-#CATEGORIAS {
+.content {
   width: 900px;
   height: auto; overflow: hidden;
   border: 1px solid;
@@ -70,7 +70,7 @@ header h2 {
   float: left;
 }
 
-.REFERENCIA {
+.footer {
   width: 300px;
   height: 95px;
   border: 1px solid;
