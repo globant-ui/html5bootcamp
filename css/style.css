@@ -6,10 +6,16 @@
   text-align: center;
 }
 
+.header {
+  font-size: 46px;
+  background: magenta;
+}
+
 header {
   width: 900px;
   height: 100px;
   border: 1px solid #000;
+  background: magenta;
 }
 
 .navigation {
@@ -31,6 +37,7 @@ header {
   text-decoration: none;
   padding: 100px 0px;
   color: #fff;
+  font-size: 12px;
 }
 
 header h2 {
@@ -45,6 +52,7 @@ header h2 {
   height: auto; overflow: hidden;
   border: 1px solid;
   float: left;
+  font-size: 14px;
 
 }
 
@@ -55,19 +63,13 @@ header h2 {
   float:left;
 }
 
-/*header h3 {
-  width: 300px;
-  height: 100px;
-  border: 1px solid;
-  float: left;
 
-}
-*/
 .ARTICULO {
   width: 300px;
   height: 700px;
   border: 1px solid;
   float: left;
+  background: #006699;
 }
 
 .footer {
@@ -75,16 +77,22 @@ header h2 {
   height: 95px;
   border: 1px solid;
   float: left;
+  font-size: 10px;
+  background: magenta;
 }
 
-.REF {
+.sidebar {
   width: 200px;
   height: 300px;
   border: 1px solid;
   float: left;
+  font-size: 12px;
+  background: #006699;
 }
 
 .PIE {
   width: 200px;
   height: 100px;
+  font-size: 10px;
+  background: magenta;
 }
