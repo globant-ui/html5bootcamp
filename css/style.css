@@ -1,0 +1,90 @@
+#Encabezado {
+  width: 900px;
+  height: 1000px;
+  border: 1px solid #000;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  width: 900px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.MENU {
+  width: 300px;
+  height: 897px;
+  border: 1px solid #000;
+  background: #006699;
+  float: left;
+}
+
+.MENU ul {}
+
+.MENU ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.MENU ul li a {
+  text-decoration: none;
+  padding: 100px 0px;
+  color: #fff;
+}
+
+header h2 {
+  width: 300px;
+  height: 897px;
+  margin: auto;
+
+}
+
+#CATEGORIAS {
+  width: 900px;
+  height: auto; overflow: hidden;
+  border: 1px solid;
+  float: left;
+
+}
+
+.TITULO {
+  width: 300px;
+  height: 100px;
+  border: 1px solid;
+  float:left;
+}
+
+/*header h3 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid;
+  float: left;
+
+}
+*/
+.ARTICULO {
+  width: 300px;
+  height: 700px;
+  border: 1px solid;
+  float: left;
+}
+
+.REFERENCIA {
+  width: 300px;
+  height: 95px;
+  border: 1px solid;
+  float: left;
+}
+
+.REF {
+  width: 200px;
+  height: 300px;
+  border: 1px solid;
+  float: left;
+}
+
+.PIE {
+  width: 200px;
+  height: 100px;
+}
