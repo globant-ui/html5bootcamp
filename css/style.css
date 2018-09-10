@@ -1,0 +1,124 @@
+* {
+    font-family: Helvetica;
+    /* Global value of 14px */
+    /* font-size: 14px; */
+}
+header#title{
+    text-align: center;
+}
+header.header {
+    background-color: blue;
+    width: 100%;
+	  height: 40px;
+    border: 2px solid gray;
+	  padding: 15px;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+section article h3 {
+    text-align: center;
+    background-color: magenta;
+    border-radius: .5em;
+    width: 220px;
+    height: 20px;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+}
+
+section footer {
+    text-align: center;
+    background-color: orange;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+header.header {
+    font-size: 46px;
+}
+
+footer.footer, aside.sidebar {
+    font-size: 10px;
+}
+
+section.content {
+    weight: 100%;
+    font-size: 14px;
+    background-color: pink;
+    border-radius: .5em;
+    margin: 0.5em auto;
+}
+
+nav.navigation {
+    font-size: 12px;
+    border-radius: .5em;
+    margin: 0.5em auto;
+}
+
+header.header,
+footer.footer,
+aside.sidebar {
+    background-color: #FF00FF;
+    border-radius: .5em;
+    margin: 0.5em auto;
+}
+
+nav.navigation {
+    background-color: blue;
+}
+
+nav ol li {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+nav a.color:link, a.color:visited {
+    color: white;
+}
+
+nav a.color:hover, a.color:active {
+    color: magenta;
+}
+
+div {
+    float: left;
+    width: 25%;
+    height: 130px;
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 20px;
+}
+
+aside#more-courses {
+    float: right;
+    width: 25%;
+    height: 130px;
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 20px;
+}
+
+/*
+    6. How could you add weight to the global font definition to win over the classes added by point 3?
+*/
+header#title,
+footer#footerId,
+section#courses,
+nav#menu,
+aside#more-courses {
+    font-size: 15px;
+}
+
+/*
+    7. Imagine there is a declaration like class=”oh-no-inline-styles” style=”background:red” and you need to change the background to green without changing the inline style. How could you accomplish this?
+    -With !important
+*/
+.oh-no-inline-styles {
+    background-color: green !important;
+    border-radius: .5em;
+}

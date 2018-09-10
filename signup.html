@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<Head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title> Sign up </title>
+</head>
+<body>
+  <form action="action_page.php">
+    <div class="container">
+      <h1>Sign up </h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="Firstname"><b>First name</b></label>
+      <input type="text" id="Firstname" placeholder="Enter Firstname" name="firstname" required>
+      <label for="Lastname"><b>Last name</b></label>
+      <input type="text" id="Lastname" placeholder="Enter Lastname" name="lastname" required>
+      <label for="Email"><b>Email</b></label>
+      <input type="text" id="Email" placeholder="Enter email" name="email" required>
+      <label for="Birthday"><b>Birthday</b></label>
+      <input type="text" id="Birthday" placeholder="Enter Birthday" name="birthday" required>
+      <select>
+         <option value="Sports">Sports</option>
+         <option value="Football">Football</option>
+         <option value="Basketball">Basketball</option>
+         <option value="Tennis">Tennis</option>
+       </select>
+       <p> Here you can write things about yourself. </p>
+       <textarea>
+       </textarea>
+      </div>
+      <div class="clearfix">
+        <button type="reset" class=clearbtn>Clear</button>
+        <button class="sumbit">Sumbit</button>
+      </div>
+  </form>
+</body>
+</html>
