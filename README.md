@@ -1,7 +1,7 @@
 
 #HTML5 Boot Camp
 
-##The future of Web Applications is here!
+##The future of Web Applications is here!1
 ###Are you ready for it?
 
 ####Index
@@ -92,7 +92,7 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
 
-5. Install your own NodeJS server.
+5. Install your own NodeJS server
   * Download [NodeJS](http://nodejs.org/)
   * Install `http-server` globally, by running `npm install -g http-server`
   * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
