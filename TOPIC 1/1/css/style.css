@@ -1,0 +1,28 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+p.oculto {
+    visibility: hidden;
+}
+
+p.visible {
+    visibility: visible;
+}
+
+#pa {
+    display: none;
+}
+
+div {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
