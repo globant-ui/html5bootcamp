@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+aside {}
+
+nav {}
+
+.header {
+    font-size: 46px;
+    background-color: #FF00FF;
+}
+
+.footer {
+    font-size: 10px;
+    background-color: #FF00FF;
+}
+
+.section {
+    font-size: 14px;
+}
+
+.nav {
+    font-size: 12px;
+    background-color: #0000FF;
+}
+
+.aside {
+    font-size: 10px;
+}
