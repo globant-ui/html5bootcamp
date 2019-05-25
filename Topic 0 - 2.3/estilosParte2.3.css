@@ -1,0 +1,59 @@
+
+/*
+-----------
+ANSWER 6
+-----------
+*/
+/* Here we answer the question 6. We give an overall weight for all fonts in the document
+*/
+.container{
+	font-weight: 10px  
+}
+/*
+-----------------------------------------------
+*/
+
+
+/*
+-----------
+ANSWER 7
+-----------
+*/
+
+/* We use the declaration "!important" to change the background color. With this declaration make the 
+property "background-color" more important */
+
+div{
+
+    background-color: green !important;
+}
+
+/*
+------------------------------------
+*/
+
+.header{
+ font-size: 46px;
+ background-color: magenta; 
+}
+
+.navigation{
+font-size: 12px;
+background-color: blue; 
+}
+
+.content{
+font-size: 14px;
+}
+
+.sidebar{
+font-size: 10px;
+background-color: magenta;
+}
+
+.footer{
+font-size: 10px;
+background-color: magenta;
+}
+
+
