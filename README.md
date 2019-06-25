@@ -1,8 +1,12 @@
+<!-- [Title](#title) -->
 # Web UI Bootcamp - Globant
 
-## Introduction
+Welcome to Globant's training for Web UI Developers.
 
+<!-- [Index](#index) -->
 ## Index
+
+- [Topic 0 - Introduction](./docs/topic0.md)
 
 - [Topic 1 - HTML](./docs/topic1.md)
 
