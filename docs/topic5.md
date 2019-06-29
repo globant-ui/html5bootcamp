@@ -1,3 +1,5 @@
 # Topic 5 - Project
 
-[-> To index](../README.md#title)
+<p class="flex space-between">
+  <a src="../README.md"><- To index</a>
+</p>

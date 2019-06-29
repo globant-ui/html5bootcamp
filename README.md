@@ -14,6 +14,6 @@ Welcome to Globant's training for Web UI Developers.
 
 - [Topic 3 - Javascript](./docs/topic3.md)
 
-- [Topic 4 - React](./docs/topic4.md)
+- [Topic 4 - Frameworks](./docs/topic4.md)
 
 - [Topic 5 - Project](./docs/topic5.md)

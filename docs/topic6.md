@@ -1,3 +1,5 @@
 # Off topic - early finishers
 
-[-> To index](../README.md#title)
+<p>
+  <a src="../README.md"><- To index</a>
+</p>
