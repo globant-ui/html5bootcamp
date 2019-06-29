@@ -5,7 +5,7 @@
   <a src="./topic5.md">Topic 5 - Project -></a>
 </p>
 
-<style>
+<style type="text/css">
 .flex {
   display: flex;
 }

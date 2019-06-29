@@ -5,7 +5,7 @@
   <a src="./topic3.md">Topic 3 - Javascript -></a>
 </p>
 
-<style>
+<style type="text/css">
 .flex {
   display: flex;
 }

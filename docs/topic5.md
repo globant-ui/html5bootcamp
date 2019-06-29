@@ -1,5 +1,5 @@
 # Topic 5 - Project
 
-<p class="flex space-between">
+<p>
   <a src="../README.md"><- To index</a>
 </p>
