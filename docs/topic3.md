@@ -1,16 +1,13 @@
 # Topic 3 - Javascript
 
-<style
-  type="text/css">
-.flex {
+<style type="text/css">
+p {
   display: flex;
-}
-.space-between {
   justify-content: space-between;
 }
 </style>
 
-<p class="flex space-between">
+<p>
   <a src="../README.md"><- To index</a>
   <a src="./topic3.md">Topic 4 - Frameworks -></a>
 </p>
