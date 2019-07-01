@@ -8,14 +8,6 @@ It can be as complicated or as simple as the web developer wishes it to be. HTML
 
 This topic will be very important to start creating the base of UI programing.
 
-## Goals and knowledge to achieve
-
-Through the rest of this section you will create a basic HTML document. After finishing this section you will:
-
-- Be able to create HTML documents that displays text, images, tables, lists
-- Understand how to structure HTML documents, and what the basic building blocks are
-- Understand best practices to write valid, accessible, and semantic HTML markup.
-
 ## Index
 
 1. [HTML Basics](#html-basics)
@@ -80,8 +72,4 @@ After this presentation and reading of the HTML documentation, we are ready for 
 - Install a screen reader like ChromeVox, and test your HTML document.
 - Install Accessibility Developer Tools, and perform an audit on your markup.
 
-## Conclusion
-
-> By now, you should have several html files with different examples of how to create lists, tables, add images, headers, etc. All the markup is syntactically valid, is semantic, passes the HTML validator, and is accessible.
-
-[<- To index](../README.md#title) - [Topic 2 - Javascript ->](./topic2.md)
+[<- To index](../README.md#title) - [Topic 2 - CSS ->](./topic2.md)
